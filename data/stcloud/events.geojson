@@ -1,1 +1,61 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Green Mill",
+        "ADDRESS": "100 4th Ave South",
+        "DETAILS": "Tuesday Night Happy Hour",
+        "EVENTHOURS": ,
+        "HOURS": ,
+        "DISCOUNT_NOTES": ,
+        "URL": "https://www.greenmill.com/locations/st-cloud/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.155283,
+          45.560674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Red Carpet Nightclub",
+        "ADDRESS": "11 5th Ave South",
+        "DETAILS": "Wednesday Night Happy Hour",
+        "EVENTHOURS": ,
+        "HOURS": ,
+        "DISCOUNT_NOTES": ,
+        "URL": "http://www.redcarpetnightclub.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1580728,
+          45.5605853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "DETAILS": "Thursday Beer Tasting and Games",
+        "EVENTHOURS": ,
+        "HOURS": ,
+        "DISCOUNT_NOTES": ,
+        "URL": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    }
+  ]
+}
