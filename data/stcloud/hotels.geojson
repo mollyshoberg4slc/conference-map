@@ -1,1 +1,119 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "PHONE": ,
+        "COST": ,
+        "URL": ,
+        "GROUPCODE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.102067,
+          46.785076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "PHONE": ,
+        "COST": ,
+        "URL": ,
+        "GROUPCODE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.09339,
+          46.783051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "PHONE": ,
+        "COST": ,
+        "URL": ,
+        "GROUPCODE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.094302,
+          46.785779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "PHONE": ,
+        "COST": ,
+        "URL": ,
+        "GROUPCODE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0636721,
+          46.806515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "PHONE": ,
+        "COST": ,
+        "URL": ,
+        "GROUPCODE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1031843,
+          46.7853149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "PHONE": ,
+        "COST": ,
+        "URL": ,
+        "GROUPCODE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.090707,
+          46.792014
+        ]
+      }
+    }
+  ]
+}
