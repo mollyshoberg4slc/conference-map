@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE":
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "NAME": ,
+        "ADDRESS": ,
+        "HOURS": ,
+        "COST": ,
+        "WEBSITE": 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          
+        ]
+      }
+    }
+  ]
+}
