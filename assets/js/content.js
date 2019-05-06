@@ -29,9 +29,9 @@ $('#conference-extent-btn').html(conferenceExtentListItem); //Link the content t
 var aboutConferenceText = "";
 
     //TODO: Change annually
-    aboutConferenceText += "<p>The official conference map for the 28th Annual Minnesota GIS\/LIS Conference held Wednesday, October 3rd through Friday, October 5th, 2018 in Duluth.<\/p>";
+    aboutConferenceText += "<p>The official conference map for the 29th Annual Minnesota GIS\/LIS Conference held Wednesday, October 2nd through Friday, October 4th, 2019 in St. Cloud.<\/p>";
     aboutConferenceText += "<p>What is the conference schedule? What workshops and sessions are offered? Where are the rooms? Where can one grab dinner or a #geobeer? What other great things can you do while visiting? All of these questions, and more can be answered in one place!<\/p>";
-    aboutConferenceText += "<p>For more information, please visit the official <a href=\"https:\/\/www.mngislis.org\/page\/Conference_2018\" target=\"_blank\"> Minnesota GIS\/LIS Conference website (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a>.<\/p>";
+    aboutConferenceText += "<p>For more information, please visit the official <a href=\"https:\/\/www.mngislis.org\/page\/Conference2019\" target=\"_blank\"> Minnesota GIS\/LIS Conference website (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a>.<\/p>";
 
     aboutConferenceText += "<div class=\"panel panel-primary\">";
     aboutConferenceText += "<div class=\"panel-heading\">Additional Information:<\/div>";
@@ -51,6 +51,11 @@ var aboutConferenceText = "";
       aboutConferenceText += "<!--<li class=\"list-group-item\">Ready to go? <a href=\"\/\/www.mngislis.org\/event\/26th_Annual_Conference\" target=\"_blank\">Register for the annual conference! (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a> <\/li>-->";
       aboutConferenceText += "<li class=\"list-group-item\">View the official <a href=\"docs\/2018_FunRunMap.pdf\" download=\"2018_FunRunMap.pdf\" target=\"_blank\">5k Fun Run\/Walk Map (download) <i class=\"fa fa-download\" aria-hidden=\"true\"><\/i><\/a> (PDF).<\/li>";
       //aboutConferenceText += "<li class=\"list-group-item\">Check out our <a href=\"\/\/c.ymcdn.com\/sites\/www.mngislis.org\/resource\/resmgr\/conf2016\/mngislis_preliminary_program.pdf\" target=\"_blank\">preliminary program! (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a> <\/li>";
+
+    } else if (conferenceCity == "stcloud") {
+      aboutConferenceText += "<li class=\"list-group-item\">View the <a href=\"\/\/www.mngislis.org\/page\/2019confrates\" target=\"_blank\">2019 conference rates (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a><\/li>";
+      aboutConferenceText += "<li class=\"list-group-item\">Registration is expected to open in August.<\/li>";
+
 
     } else { console.log("Add '" + conferenceCity + "' to the aboutConferenceText js/content.js file."); }
 
