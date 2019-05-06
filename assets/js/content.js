@@ -72,10 +72,10 @@ var scheduleModalDialogText = "";
 
     //TODO: Change annually
     scheduleModalDialogText += "<ul class=\"nav nav-tabs nav nav-justified\" id=\"scheduleTabs\">";
-    scheduleModalDialogText += "<li class=\"active\"><a href=\"#tuesday\" data-toggle=\"tab\">Tuesday, Oct. 2<\/a><\/li>";
-    scheduleModalDialogText += "<li><a href=\"#wednesday\" data-toggle=\"tab\">Wednesday, Oct. 3<\/a><\/li>";
-    scheduleModalDialogText += "<li><a href=\"#thursday\" data-toggle=\"tab\">Thursday, Oct. 4<\/a><\/li>";
-    scheduleModalDialogText += "<li><a href=\"#friday\" data-toggle=\"tab\">Friday, Oct. 5<\/a><\/li>";
+    scheduleModalDialogText += "<li class=\"active\"><a href=\"#tuesday\" data-toggle=\"tab\">Tuesday, Oct. 1<\/a><\/li>";
+    scheduleModalDialogText += "<li><a href=\"#wednesday\" data-toggle=\"tab\">Wednesday, Oct. 2<\/a><\/li>";
+    scheduleModalDialogText += "<li><a href=\"#thursday\" data-toggle=\"tab\">Thursday, Oct. 3<\/a><\/li>";
+    scheduleModalDialogText += "<li><a href=\"#friday\" data-toggle=\"tab\">Friday, Oct. 4<\/a><\/li>";
     scheduleModalDialogText += "<\/ul>";
     scheduleModalDialogText += "<div class=\"tab-content\" id=\"aboutTabsContent\">";
 
