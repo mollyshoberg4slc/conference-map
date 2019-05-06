@@ -12,6 +12,10 @@ if (conferenceCity == "bemidji") {
   fullExtentListItem += "<i class=\"fa fa-arrows-alt\" aria-hidden=\"true\"><\/i>&nbsp;&nbsp;Zoom to Duluth";
   conferenceExtentListItem += "<i class=\"fa fa-search\" aria-hidden=\"true\"><\/i><\/i>&nbsp;&nbsp;Zoom to DECC";
 
+} else if (conferenceCity == "stcloud") {
+  fullExtentListItem += "<i class=\"fa fa-arrows-alt\" aria-hidden=\"true\"><\/i>&nbsp;&nbsp;Zoom to St. Cloud";
+  conferenceExtentListItem += "<i class=\"fa fa-search\" aria-hidden=\"true\"><\/i><\/i>&nbsp;&nbsp;Zoom to River's Edge Convention Center";
+
 } else {
     fullExtentListItem += "<i class=\"fa fa-arrows-alt\" aria-hidden=\"true\"><\/i>&nbsp;&nbsp;Zoom to City";
     conferenceExtentListItem += "<i class=\"fa fa-search\" aria-hidden=\"true\"><\/i><\/i>&nbsp;&nbsp;Zoom to Conference City";
