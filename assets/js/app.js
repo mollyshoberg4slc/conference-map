@@ -1354,8 +1354,8 @@ if (conferenceCity == "duluth") {
 } else if (conferenceCity == "stcloud") {
   var groupedOverlays = {
     "RECC": {
-  	   "&nbsp;1st Floor (Ground)": groundFloor,
-  	   "&nbsp;2nd Floor (Skyway)": secondFloor//,
+  	   "&nbsp;1st Floor": groundFloor,
+  	   "&nbsp;2nd Floor": secondFloor//,
        //"&nbsp;3rd Floor (Harbor Ballroom)": deccThirdFloor
     },
     "Places of Interest": {
