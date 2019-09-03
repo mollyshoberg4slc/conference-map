@@ -77,7 +77,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "HOLL"
+        "NAME": "Board Room C",
+        "polyType": "Esri Lab",
+        "wedHours": "",
+        "thursHours": "",
+        "friHours": ""
       },
       "geometry": {
         "type": "Polygon",
