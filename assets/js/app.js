@@ -1209,7 +1209,7 @@ if (conferenceCity == "duluth") {
       initialLat = 47.463423, initialLng = -94.853554; //On-load map center
 } else if (conferenceCity == "stcloud") {
   var southwestMax = L.latLng(45.1878, -94.9191), northeastMax = L.latLng(45.9826, -93.4387), //Map bounds
-      initialLat = 45.561780, initialLng = -94.157467; //On-load map center
+      initialLat = 45.561761, initialLng = -94.1567426; //On-load map center
 } else {
   var southwestMax = L.latLng(44.8872, -93.2077), northeastMax = L.latLng(44.9920, -93.0043), //Map bounds
       initialLat = 44.971159, initialLng = -93.203874; //On-load map center
