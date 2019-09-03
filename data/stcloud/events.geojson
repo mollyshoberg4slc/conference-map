@@ -1,4 +1,42 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Green Mill Restaurant & Bar",
+        "ADDRESS": "100 4th Ave South",
+        "DETAILS": "Social Networking (Tuesday)",
+        "EVENTHOURS": "7:00 pm - 9:30 pm",
+        "HOURS": "6:30 am - 12:30 am",
+        "URL": "https://www.greenmill.com/locations/st-cloud/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15518701076506,
+          45.56069496038252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Red Carpet Nightclub",
+        "ADDRESS": "11 5th Ave South",
+        "DETAILS": "Social Networking (Wednesday), Thursday Night Social Event",
+        "EVENTHOURS": "Wednesday 7:00 pm, Thursday 7:15 pm",
+        "HOURS": "4:00 pm - 2:00 am",
+        "URL": "http://www.redcarpetnightclub.com/"
+
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15801405906677,
+          45.56059355058554
+        ]
+      }
+    }
+  ]
 }
