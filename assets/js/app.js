@@ -928,10 +928,21 @@ var hotels = L.geoJson(null, {
 
       var content = "<table class='table table-striped table-bordered table-condensed'>" +
                     "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>" +
-                    "<tr><th scope='row'>Phone Number</th><td>" + feature.properties.PHONE + "</td></tr>" +
-                    "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>" +
-                    "<tr><th scope='row'>Group Code</th><td>" + feature.properties.GROUPCODE + "</td></tr>" +
-                    "<tr><th scope='row'>Website</th><td><a href='" + feature.properties.URL + "'>Online reservations</a></td></tr>" + "</table>";
+                    "<tr><th scope='row'>Phone Number</th><td>" + feature.properties.PHONE + "</td></tr>";
+
+      if ("COST" in feature.properties && feature.properties.cost !== "") {
+        content += "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>";
+      }
+
+      if ("GROUPCODE" in feature.properties && feature.properties.GROUPCODE !== "") {
+        content += "<tr><th scope='row'>Group Code</th><td>" + feature.properties.GROUPCODE + "</td></tr>";
+      }
+
+      if ("URL" in feature.properties && feature.properties.URL !== "") {
+        content += "<tr><th scope='row'>Website</th><td><a href='" + feature.properties.URL + "'>Online reservations</a></td></tr>";
+      }
+
+      content += "</table>";
 
     layer.bindPopup("<strong>" + feature.properties.NAME + "</strong>");
 
