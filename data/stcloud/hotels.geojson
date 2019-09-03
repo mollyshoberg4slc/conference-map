@@ -21,7 +21,8 @@
       "type": "Feature",
       "properties": {
         "NAME": "Courtyard by Marriott (SOLD OUT)",
-        "ADDRESS": "404 West Germain Street"
+        "ADDRESS": "404 West Germain Street",
+        "PHONE": "320-654-1661"
       },
       "geometry": {
         "type": "Point",
