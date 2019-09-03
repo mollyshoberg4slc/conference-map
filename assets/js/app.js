@@ -644,55 +644,55 @@ $.getJSON("data/duluth/site/thirdLevelPoints.geojson", function (data) {
 });
 
 //Fun run route geojson layer
-var funRunWalkRoute = L.geoJson(null, {
-	  style: function (feature) {
-	      return {
-	        color: "#ff3135",
-	        dashArray: '4',
-	        weight: 3,
-	        opacity: 0.6
-	      };
-	  },
-	  onEachFeature: function (feature, layer) {
-	    if (feature.properties) {
-	      var content = "<table class='table table-striped table-bordered table-condensed'>" +
-              	      "<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 5, 2018 @ 6:15 a.m." + "</td></tr>" +
-              	      "<tr><th scope='row'>Start/Finish Location</th><td>" + "Canal Park Lodge Parking Lot" + "</td></tr>" +
-              	      "<tr><th scope='row'>Start/Finish Address</th><td>" + "1250 Canal Park Dr, Duluth" + "</td></tr>" +
-              	      "<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will recieve a commemorative t-shirt after completion." + "</td></tr>" +
-              	      "<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows the Lakewalk, South Lake Avenue, the South Pier and Minnesota Avenue on Minnesota Point. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather! For more information, check out the <a href='docs/2018_FunRunMap.pdf' target='_blank'> official map (download) <i class='fa fa-download'></i></a> (PDF)." + "</td></tr>" + "<table>";
+// var funRunWalkRoute = L.geoJson(null, {
+// 	  style: function (feature) {
+// 	      return {
+// 	        color: "#ff3135",
+// 	        dashArray: '4',
+// 	        weight: 3,
+// 	        opacity: 0.6
+// 	      };
+// 	  },
+// 	  onEachFeature: function (feature, layer) {
+// 	    if (feature.properties) {
+// 	      var content = "<table class='table table-striped table-bordered table-condensed'>" +
+//               	      "<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 5, 2018 @ 6:15 a.m." + "</td></tr>" +
+//               	      "<tr><th scope='row'>Start/Finish Location</th><td>" + "Canal Park Lodge Parking Lot" + "</td></tr>" +
+//               	      "<tr><th scope='row'>Start/Finish Address</th><td>" + "1250 Canal Park Dr, Duluth" + "</td></tr>" +
+//               	      "<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will recieve a commemorative t-shirt after completion." + "</td></tr>" +
+//               	      "<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows the Lakewalk, South Lake Avenue, the South Pier and Minnesota Avenue on Minnesota Point. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather! For more information, check out the <a href='docs/2018_FunRunMap.pdf' target='_blank'> official map (download) <i class='fa fa-download'></i></a> (PDF)." + "</td></tr>" + "<table>";
 
-        layer.on({
-	        click: function (e) {
-	          $("#feature-title").html("Official 5k Fun Run/Walk Route");
-	          $("#feature-info").html(content);
-	          $("#featureModal").modal("show");
+//         layer.on({
+// 	        click: function (e) {
+// 	          $("#feature-title").html("Official 5k Fun Run/Walk Route");
+// 	          $("#feature-info").html(content);
+// 	          $("#featureModal").modal("show");
 
-	        }
-	      });
-	    }
-	    layer.on({
-	      mouseover: function (e) {
-	        var layer = e.target;
-	        layer.setStyle({
-	          weight: 3,
-	          color: "#00FFFF",
-	          opacity: 1
-	        });
-	        if (!L.Browser.ie && !L.Browser.opera) {
-	          layer.bringToFront();
-	        }
-	      },
-	      mouseout: function (e) {
-	        funRunWalkRoute.resetStyle(e.target);
-	      }
-	    });
-	  }
-	});
-	$.getJSON("data/" + conferenceCity + "/funRoute.geojson", function (data) {
-	  funRunWalkRoute.addData(data);
-	  map.almostOver.addLayer(funRunWalkRoute);
-	});
+// 	        }
+// 	      });
+// 	    }
+// 	    layer.on({
+// 	      mouseover: function (e) {
+// 	        var layer = e.target;
+// 	        layer.setStyle({
+// 	          weight: 3,
+// 	          color: "#00FFFF",
+// 	          opacity: 1
+// 	        });
+// 	        if (!L.Browser.ie && !L.Browser.opera) {
+// 	          layer.bringToFront();
+// 	        }
+// 	      },
+// 	      mouseout: function (e) {
+// 	        funRunWalkRoute.resetStyle(e.target);
+// 	      }
+// 	    });
+// 	  }
+// 	});
+// 	$.getJSON("data/" + conferenceCity + "/funRoute.geojson", function (data) {
+// 	  funRunWalkRoute.addData(data);
+// 	  map.almostOver.addLayer(funRunWalkRoute);
+// 	});
 
 /* Empty layer placeholder to add to layer control for listening when to add/remove attractions to markerClusters layer */
 var hotelsLayer = L.geoJson(null);
@@ -1003,7 +1003,8 @@ var mapExtentBounds = L.latLngBounds(southwestMax, northeastMax);
 map = L.map("map", {
   zoom: 18,
   center: [initialLat, initialLng],
-  layers: [mqStreetBasemap, conferencePolygon, groundFloor, funRunWalkRoute, markerClusters, highlight],
+  // layers: [mqStreetBasemap, conferencePolygon, groundFloor, funRunWalkRoute, markerClusters, highlight],
+  layers: [mqStreetBasemap, conferencePolygon, groundFloor, markerClusters, highlight],
   maxBounds: mapExtentBounds,
   zoomControl: false,
   attributionControl: false
@@ -1139,7 +1140,7 @@ if (conferenceCity == "duluth") {
        //"&nbsp;3rd Floor (Harbor Ballroom)": deccThirdFloor
     },
     "Places of Interest": {
-  		  "&nbsp;5k Fun Run/Walk Route": funRunWalkRoute,
+  		  // "&nbsp;5k Fun Run/Walk Route": funRunWalkRoute,
   		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #406573;'></i><i class='fa fa-bed fa-stack-1x' style='color: white;'></i></span>&nbsp;Hotels": hotelsLayer,
         "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #B74448;'></i><i class='fa fa-star fa-stack-1x' style='color: white;'></i></span>&nbsp;Conference Events": eventsLayer,
   		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #72AF26;'></i><i class='fa fa-binoculars fa-stack-1x' style='color: white;'></i></span>&nbsp;Attractions": attractionsLayer,
