@@ -54,8 +54,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.175809,
-          45.553599
+          -94.15829300880432,
+          45.560818905441366
         ]
       },
       "properties": {
@@ -70,8 +70,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.175809,
-          45.553599
+          -94.16194081306458,
+          45.55923764645667
         ]
       },
       "properties": {
@@ -86,8 +86,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.175809,
-          45.553599
+          -94.15872484445572,
+          45.560655523261
         ]
       },
       "properties": {
@@ -233,8 +233,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.175809,
-          45.553599
+          -94.16373789310455,
+          45.55895218878645
         ]
       },
       "properties": {
@@ -265,8 +265,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.175809,
-          45.553599
+          -94.15874361991882,
+          45.56104425939334
         ]
       },
       "properties": {
@@ -316,8 +316,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.175809,
-          45.553599
+          -94.15888845920563,
+          45.560991676885386
         ]
       },
       "properties": {
@@ -440,6 +440,22 @@
         "ADDRESS": "809 W St Germain St",
         "URL": "http://www.whitehorsemn.com/",
         "HOURS": "11:00 am - 2:00 am"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kohinoor Bar & Grill",
+        "ADDRESS": "17 7th Ave S",
+        "HOURS": "11:00 am - 2:30 pm; 4:30 - 9:30 pm",
+        "URL": "https://www.kohinoorbar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.16014373302458,
+          45.55957380856408
+        ]
       }
     }
   ]
