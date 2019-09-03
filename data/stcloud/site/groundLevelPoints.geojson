@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Keynotes & Geolounge (Terry Haws C)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.156973361969,
+          45.56212782369031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Bell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15595680475235,
+          45.56192500908577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Alexander"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15592461824417,
+          45.561870549483956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Weidner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15585219860075,
+          45.561842380703666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Edelbrock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15585219860075,
+          45.56176726388719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Clarke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15577441453934,
+          45.561799188546466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "HOLL (Board Room C)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15664345026016,
+          45.56221796327954
+        ]
+      }
+    }
+  ]
+}

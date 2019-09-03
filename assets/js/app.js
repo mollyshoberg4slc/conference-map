@@ -30,11 +30,13 @@ $("#full-extent-btn").click(function() {
   	map.fitBounds([[46.7786733259, -92.1083088853],[46.786163129, -92.0913457505]]);
   } else if (conferenceCity == "bemidji") {
     map.fitBounds([[47.4509021555, -94.9586105347],[47.5572987869, -94.7890090942]]);
+  } else if (conferenceCity == "stcloud") {
+    map.fitBounds([[45.57304680685471, -94.13176059722902], [45.54819764153181, -94.17802333831789]])
   } else {
     //Do nothing
   }
 
-$(".navbar-collapse.in").collapse("hide");
+  $(".navbar-collapse.in").collapse("hide");
   return false;
 });
 
@@ -44,11 +46,13 @@ $("#conference-extent-btn").click(function() {
   	map.fitBounds([[46.7817821466, -92.0969683742],[46.7805432416, -92.0989721204]]);
   } else if (conferenceCity == "bemidji") {
     map.fitBounds([[47.4627447273, -94.8547276855],[47.4643416544, -94.8522180319]]);
+  } else if (conferenceCity == "stcloud") {
+    map.fitBounds([[45.563425444248935, -94.15385127067567], [45.56031936762543, -94.15963411331178]])
   } else {
     //Do nothing
-}
+  }
 
-$(".navbar-collapse.in").collapse("hide");
+  $(".navbar-collapse.in").collapse("hide");
   return false;
 });
 
@@ -984,6 +988,9 @@ if (conferenceCity == "duluth") {
 } else if (conferenceCity == "bemidji") {
   var southwestMax = L.latLng(47.3243, -95.0811), northeastMax = L.latLng(47.6038, -94.6115), //Map bounds
       initialLat = 47.463423, initialLng = -94.853554; //On-load map center
+} else if (conferenceCity == "stcloud") {
+  var southwestMax = L.latLng(45.1878, -94.9191), northeastMax = L.latLng(45.9826, -93.4387), //Map bounds
+      initialLat = 45.561780, initialLng = -94.157467; //On-load map center
 } else {
   var southwestMax = L.latLng(44.8872, -93.2077), northeastMax = L.latLng(44.9920, -93.0043), //Map bounds
       initialLat = 44.971159, initialLng = -93.203874; //On-load map center
@@ -1124,14 +1131,33 @@ if (conferenceCity == "duluth") {
   		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #EB902E;'></i><i class='fa fa-cutlery fa-stack-1x' style='color: white;'></i></span>&nbsp;Establishments": establishmentsLayer
     }
   };
+} else if (conferenceCity == "stcloud") {
+  var groupedOverlays = {
+    "RECC": {
+  	   "&nbsp;1st Floor (Ground)": groundFloor,
+  	   "&nbsp;2nd Floor (Skyway)": secondFloor//,
+       //"&nbsp;3rd Floor (Harbor Ballroom)": deccThirdFloor
+    },
+    "Places of Interest": {
+  		  "&nbsp;5k Fun Run/Walk Route": funRunWalkRoute,
+  		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #406573;'></i><i class='fa fa-bed fa-stack-1x' style='color: white;'></i></span>&nbsp;Hotels": hotelsLayer,
+        "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #B74448;'></i><i class='fa fa-star fa-stack-1x' style='color: white;'></i></span>&nbsp;Conference Events": eventsLayer,
+  		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #72AF26;'></i><i class='fa fa-binoculars fa-stack-1x' style='color: white;'></i></span>&nbsp;Attractions": attractionsLayer,
+  		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #EB902E;'></i><i class='fa fa-cutlery fa-stack-1x' style='color: white;'></i></span>&nbsp;Establishments": establishmentsLayer
+    }
+  };
 }
 
 if (conferenceCity == "duluth") {
   var options = { exclusiveGroups: ["DECC"],
   		collapsed: isCollapsed
   };
-} else if (conferenceCity = "bemidji") {
+} else if (conferenceCity == "bemidji") {
   var options = { exclusiveGroups: ["Sanford Center"],
+  		collapsed: isCollapsed
+  };
+} else if (conferenceCity == "stcloud") {
+  var options = { exclusiveGroups: ["RECC"],
   		collapsed: isCollapsed
   };
 } else {

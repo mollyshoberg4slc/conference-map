@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Coborn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15649056434631,
+          45.56217101559487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Metzroth/Helgeson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15642887353897,
+          45.562116556231494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Fandel/Marsh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15636047720909,
+          45.56205646307961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "First American"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1559474170208,
+          45.561932520750865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Thielman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15592595934868,
+          45.56189965720874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Mitchell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15585353970528,
+          45.56184144174408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Swisshelm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15576502680779,
+          45.561876183238326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Schilplin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15579989552498,
+          45.561776653494746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "NAME": "Whitney"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15570735931396,
+          45.5618151508693
+        ]
+      }
+    }
+  ]
+}

@@ -14,6 +14,11 @@ if (conferenceCity == "bemidji") {
     '<i class="fa fa-arrows-alt" aria-hidden="true"></i>&nbsp;&nbsp;Zoom to Duluth';
   conferenceExtentListItem +=
     '<i class="fa fa-search" aria-hidden="true"></i></i>&nbsp;&nbsp;Zoom to DECC';
+} else if (conferenceCity == "stcloud") {
+  fullExtentListItem +=
+    '<i class="fa fa-arrows-alt" aria-hidden="true"></i>&nbsp;&nbsp;Zoom to St. Cloud';
+  conferenceExtentListItem +=
+    '<i class="fa fa-search" aria-hidden="true"></i></i>&nbsp;&nbsp;Zoom to RECC';
 } else {
   fullExtentListItem +=
     '<i class="fa fa-arrows-alt" aria-hidden="true"></i>&nbsp;&nbsp;Zoom to City';
@@ -34,11 +39,11 @@ var aboutConferenceText = "";
 
 //TODO: Change annually
 aboutConferenceText +=
-  "<p>The official conference map for the 28th Annual Minnesota GIS/LIS Conference held Wednesday, October 3rd through Friday, October 5th, 2018 in Duluth.</p>";
+  "<p>The official conference map for the 29th Annual Minnesota GIS/LIS Conference held Wednesday, October 2nd through Friday, October 4th, 2019 in St. Cloud.</p>";
 aboutConferenceText +=
   "<p>What is the conference schedule? What workshops and sessions are offered? Where are the rooms? Where can one grab dinner or a #geobeer? What other great things can you do while visiting? All of these questions, and more can be answered in one place!</p>";
 aboutConferenceText +=
-  '<p>For more information, please visit the official <a href="https://www.mngislis.org/page/Conference_2018" target="_blank"> Minnesota GIS/LIS Conference website (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a>.</p>';
+  '<p>For more information, please visit the official <a href="https://www.mngislis.org/page/annual-conference" target="_blank"> Minnesota GIS/LIS Conference website (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a>.</p>';
 
 aboutConferenceText += '<div class="panel panel-primary">';
 aboutConferenceText +=
@@ -66,6 +71,15 @@ if (conferenceCity == "bemidji") {
   aboutConferenceText +=
     '<li class="list-group-item">View the official <a href="docs/2018_FunRunMap.pdf" download="2018_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).</li>';
   //aboutConferenceText += "<li class=\"list-group-item\">Check out our <a href=\"\/\/c.ymcdn.com\/sites\/www.mngislis.org\/resource\/resmgr\/conf2016\/mngislis_preliminary_program.pdf\" target=\"_blank\">preliminary program! (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a> <\/li>";
+} else if (conferenceCity == "stcloud") {
+  aboutConferenceText +=
+    '<li class="list-group-item">View the <a href="https://www.mngislis.org/page/2019-rates" target="_blank">2019 conference rates (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>';
+  /* TODO: Open registration */
+  aboutConferenceText +=
+    '<!--<li class="list-group-item">Ready to go? <a href="https://www.mngislis.org/event/2019-conference-reg" target="_blank">Register for the annual conference! (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a> </li>-->';
+  // aboutConferenceText +=
+  //   '<li class="list-group-item">View the official <a href="docs/2018_FunRunMap.pdf" download="2018_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).</li>';
+  //aboutConferenceText += "<li class=\"list-group-item\">Check out our <a href=\"\/\/c.ymcdn.com\/sites\/www.mngislis.org\/resource\/resmgr\/conf2016\/mngislis_preliminary_program.pdf\" target=\"_blank\">preliminary program! (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a> <\/li>";
 } else {
   console.log(
     "Add '" +
@@ -87,13 +101,13 @@ var scheduleModalDialogText = "";
 scheduleModalDialogText +=
   '<ul class="nav nav-tabs nav nav-justified" id="scheduleTabs">';
 scheduleModalDialogText +=
-  '<li class="active"><a href="#tuesday" data-toggle="tab">Tuesday, Oct. 2</a></li>';
+  '<li class="active"><a href="#tuesday" data-toggle="tab">Tuesday, Oct. 1</a></li>';
 scheduleModalDialogText +=
-  '<li><a href="#wednesday" data-toggle="tab">Wednesday, Oct. 3</a></li>';
+  '<li><a href="#wednesday" data-toggle="tab">Wednesday, Oct. 2</a></li>';
 scheduleModalDialogText +=
-  '<li><a href="#thursday" data-toggle="tab">Thursday, Oct. 4</a></li>';
+  '<li><a href="#thursday" data-toggle="tab">Thursday, Oct. 3</a></li>';
 scheduleModalDialogText +=
-  '<li><a href="#friday" data-toggle="tab">Friday, Oct. 5</a></li>';
+  '<li><a href="#friday" data-toggle="tab">Friday, Oct. 4</a></li>';
 scheduleModalDialogText += "</ul>";
 scheduleModalDialogText += '<div class="tab-content" id="aboutTabsContent">';
 
@@ -253,6 +267,111 @@ if (conferenceCity == "bemidji") {
     '<tr><th scope="row">10:30 pm - 12:00 pm</th><td>Conference Sessions</td><td>DECC Rooms</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">12:00 pm - 2:30 pm</th><td>Closing Keynote Sam Cook &amp; Luncheon</td><td>Lake Superior Ballroom</td></tr>';
+  scheduleModalDialogText += "</table>";
+  scheduleModalDialogText += "</div>";
+} else if (conferenceCity == "stcloud") {
+  //Tuesday
+  scheduleModalDialogText +=
+    '<div class="tab-pane fade active in" id="tuesday">';
+  scheduleModalDialogText +=
+    '<table class="table table-striped table-bordered table-condensed">';
+  scheduleModalDialogText +=
+    '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">7:00 pm - 9:30 pm</th><td>Social Networking</td><td>Green Mill Restaurant &amp Bar</td></tr>';
+  scheduleModalDialogText += "</table>";
+  scheduleModalDialogText += "</div>";
+
+  //Wednesday
+  scheduleModalDialogText += '<div id="wednesday" class="tab-pane fade">';
+  scheduleModalDialogText +=
+    '<table class="table table-striped table-bordered table-condensed">';
+  scheduleModalDialogText +=
+    '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">8:00 am</th><td>Registration</td><td>Registration Desk</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">9:00 am - 10:30 am</th><td>Morning Workshops</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">10:30 am - 10:45 am</th><td>Refreshment Break</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">10:45 am - 12:00 pm</th><td>Morning Workshops (continued)</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">12:00 pm - 1:30 pm</th><td>Lunch &amp; Keynote: Brianne Wegter &amp; Melissa Gebhardt</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">1:30 pm - 3:00 pm</th><td>Afternoon Workshops</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">1:30 pm - 3:00 pm</th><td>Meet Me at the Corner</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">3:00 pm - 3:15 am</th><td>Refreshment Break</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">3:15 pm - 4:30 pm</th><td>Afternoon Workshops (continued)</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">2:00 pm - 5:00 pm</th><td>Exhibit Hall Open</td><td>Exhibit Hall/Geolounge</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">4:30 pm - 5:30 pm</th><td>Wednesday Welcome Reception</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">7:00 pm - 10:00 pm</th><td>Social Event/Pool &amp Dart Tournaments</td><td>Red Carpet Nightclub</td></tr>';
+  scheduleModalDialogText += "</table>";
+  scheduleModalDialogText += "</div>";
+
+  //Thursday
+  scheduleModalDialogText += '<div id="thursday" class="tab-pane fade">';
+  scheduleModalDialogText +=
+    '<table class="table table-striped table-bordered table-condensed">';
+  scheduleModalDialogText +=
+    '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">7:30 am</th><td>Registration</td><td>Registration Desk</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">7:30 am</th><td>Conference Mentor Meet and Greet</td><td>Geolounge</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">8:00 am - 8:30 am</th><td>Conference Welcome</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">8:30 am - 10:00 am</th><td>Opening Keynote Session: Joseph Kerski</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Morning Break</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Speed Networking</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">10:30 am - 12:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">12:00 pm - 1:30 pm</th><td>Awards Luncheon</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">1:30 pm - 3:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">3:00 pm - 3:30 pm</th><td>Afternoon Break</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">3:30 pm - 5:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">5:00 pm - 7:00 pm</th><td>Exhibitor Showcase</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">6:15 pm - 6:45 pm</th><td>Exhibitor and GIS/LIS Raffle (must be present to win)</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">7:15 pm - 10:00 pm</th><td>Thursday Night Social Event</td><td>Red Carpet Nightclub</td></tr>';
+  scheduleModalDialogText += "</table>";
+  scheduleModalDialogText += "</div>";
+
+  //Friday
+  scheduleModalDialogText += '<div id="friday" class="tab-pane fade">';
+  scheduleModalDialogText +=
+    '<table class="table table-striped table-bordered table-condensed">';
+  scheduleModalDialogText +=
+    '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">6:15 am - 7:15 am</th><td>5k Fun Run/Walk</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">7:30 am - 10:00 am</th><td>Registration</td><td>Registration Desk</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">8:00 am - 12:00 pm</th><td>Exhibit Hall &amp; Geolounge Open</td><td>Exhibit Hall/Geolounge</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">8:30 am - 10:00 am</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Morning Break</td><td></td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">10:30 pm - 12:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">12:00 pm - 1:30 pm</th><td>Lunch &amp; Closing Keynote: Kenny Blumenfeld</td><td></td></tr>';
   scheduleModalDialogText += "</table>";
   scheduleModalDialogText += "</div>";
 } else {
