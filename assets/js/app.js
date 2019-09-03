@@ -226,7 +226,7 @@ style: function (feature) {
           "<div class='tab-pane fade active in' id='wedWorkshops'>" +
             "<div class='modal-body'>" +
               "<table class='table table-striped table-bordered table-condensed'>" +
-                "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr></table>" +
+                "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr></table>" +
             "</div>" +
         "</div>" +
            "<div class='tab-pane fade' id='thursSessions'>" +
@@ -249,7 +249,7 @@ style: function (feature) {
             "<div class='tab-pane fade active in' id='wedPmWorkshops'>" +
               "<div class='modal-body'>" +
                 "<table class='table table-striped table-bordered table-condensed'>" +
-                  "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
               "</div>" +
           "</div>" +
              "<div class='tab-pane fade' id='thursSessions'>" +
@@ -314,8 +314,8 @@ style: function (feature) {
            "<div class='tab-pane fade active in' id='wedWorkshops'>" +
              "<div class='modal-body'>" +
                "<table class='table table-striped table-bordered table-condensed'>" +
-                 "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                 "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                 "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                 "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
              "</div>" +
          "</div>" +
             "<div class='tab-pane fade' id='thursUserGroups'>" +
@@ -335,8 +335,8 @@ style: function (feature) {
               "<div class='tab-pane fade active in' id='wedWorkshops'>" +
                 "<div class='modal-body'>" +
                   "<table class='table table-striped table-bordered table-condensed'>" +
-                    "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                    "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>";
+                    "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                    "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>";
               "</div>" +
             "</div>" +
          "</div>"
@@ -350,8 +350,8 @@ style: function (feature) {
                    "<div class='tab-pane fade active in' id='wedWorkshops'>" +
                      "<div class='modal-body'>" +
                        "<table class='table table-striped table-bordered table-condensed'>" +
-                         "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                         "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                         "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                         "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
                      "</div>" +
                  "</div>" +
                     "<div class='tab-pane fade' id='thursSessions'>" +
@@ -416,8 +416,8 @@ style: function (feature) {
             "<div class='tab-pane fade active in' id='wedWorkshops'>" +
               "<div class='modal-body'>" +
                 "<table class='table table-striped table-bordered table-condensed'>" +
-                  "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                  "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                  "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
               "</div>" +
           "</div>" +
              "<div class='tab-pane fade' id='thursSessions'>" +
@@ -546,7 +546,7 @@ style: function (feature) {
           "<div class='tab-pane fade active in' id='wedWorkshops'>" +
             "<div class='modal-body'>" +
               "<table class='table table-striped table-bordered table-condensed'>" +
-                "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr></table>" +
+                "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr></table>" +
             "</div>" +
         "</div>" +
            "<div class='tab-pane fade' id='thursSessions'>" +
@@ -569,7 +569,7 @@ style: function (feature) {
             "<div class='tab-pane fade active in' id='wedPmWorkshops'>" +
               "<div class='modal-body'>" +
                 "<table class='table table-striped table-bordered table-condensed'>" +
-                  "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
               "</div>" +
           "</div>" +
              "<div class='tab-pane fade' id='thursSessions'>" +
@@ -634,8 +634,8 @@ style: function (feature) {
            "<div class='tab-pane fade active in' id='wedWorkshops'>" +
              "<div class='modal-body'>" +
                "<table class='table table-striped table-bordered table-condensed'>" +
-                 "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                 "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                 "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                 "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
              "</div>" +
          "</div>" +
             "<div class='tab-pane fade' id='thursUserGroups'>" +
@@ -655,8 +655,8 @@ style: function (feature) {
               "<div class='tab-pane fade active in' id='wedWorkshops'>" +
                 "<div class='modal-body'>" +
                   "<table class='table table-striped table-bordered table-condensed'>" +
-                    "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                    "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>";
+                    "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                    "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>";
               "</div>" +
             "</div>" +
          "</div>"
@@ -670,8 +670,8 @@ style: function (feature) {
                    "<div class='tab-pane fade active in' id='wedWorkshops'>" +
                      "<div class='modal-body'>" +
                        "<table class='table table-striped table-bordered table-condensed'>" +
-                         "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                         "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                         "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                         "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
                      "</div>" +
                  "</div>" +
                     "<div class='tab-pane fade' id='thursSessions'>" +
@@ -720,8 +720,8 @@ style: function (feature) {
             "<div class='tab-pane fade active in' id='wedWorkshops'>" +
               "<div class='modal-body'>" +
                 "<table class='table table-striped table-bordered table-condensed'>" +
-                  "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                  "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                  "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
               "</div>" +
           "</div>" +
              "<div class='tab-pane fade' id='thursSessions'>" +
@@ -818,7 +818,7 @@ style: function (feature) {
              "<div class='tab-pane fade' id='fri'>" +
                "<div class='modal-body'>" +
                  "<table class='table table-striped table-bordered table-condensed'>" +
-                 "<tr><th scope='row'>12:15 pm</th><td>" + feature.properties.activityFri1 + "</td></tr>" +
+                 "<tr><th scope='ro[w'>12:15 pm</th><td>" + feature.properties.activityFri1 + "</td></tr>" +
                  "<tr><th scope='row'>12:30 pm - 2:30 pm</th><td>" + feature.properties.activityFri2 + "</td></tr></table>"
              "</div>" +
            "</div>" +
