@@ -289,7 +289,7 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">8:00 am</th><td>Registration</td><td>Registration Desk</td></tr>';
+    '<tr><th scope="row">8:00 am - 5:00 pm</th><td>Registration</td><td>Registration Desk</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">9:00 am - 10:30 am</th><td>Morning Workshops</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
@@ -322,7 +322,7 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">7:30 am</th><td>Registration</td><td>Registration Desk</td></tr>';
+    '<tr><th scope="row">7:30 am - 5:00 pm</th><td>Registration</td><td>Registration Desk</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">7:30 am</th><td>Conference Mentor Meet and Greet</td><td>Geolounge</td></tr>';
   scheduleModalDialogText +=
