@@ -4,7 +4,15 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Keynotes & Geolounge (Terry Haws C)"
+        "NAME": "Keynotes & Geolounge",
+        "polyType": "Geolounge",
+        "wedHours": "",
+        "thursHours": "",
+        "friHours": "",
+        "activityWed": "Brianne Wegter and Melissa Gebhardt",
+        "activityThurs": "Joseph Kerski",
+        "activityThurs2": "Awards Luncheon",
+        "activityFri": "Kenny Blumenfeld"
       },
       "geometry": {
         "type": "Polygon",
@@ -102,7 +110,18 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Weidner"
+        "NAME": "Weidner",
+        "workshopAMnumber": "",
+        "workshopAM": "",
+        "workshopAMspeakers": "",
+        "workshopPMnumber": "",
+        "workshopPM": "",
+        "workshopPMspeakers": "",
+        "thursdaySession1": "",
+        "thursdaySession2": "",
+        "thursdaySession3": "",
+        "fridaySession1": "",
+        "fridaySession2": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -135,7 +154,18 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Clarke"
+        "NAME": "Clarke",
+        "workshopAMnumber": "",
+        "workshopAM": "",
+        "workshopAMspeakers": "",
+        "workshopPMnumber": "",
+        "workshopPM": "",
+        "workshopPMspeakers": "",
+        "thursdaySession1": "",
+        "thursdaySession2": "",
+        "thursdaySession3": "",
+        "fridaySession1": "",
+        "fridaySession2": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -168,7 +198,18 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Edelbrock"
+        "NAME": "Edelbrock",
+        "workshopAMnumber": "",
+        "workshopAM": "",
+        "workshopAMspeakers": "",
+        "workshopPMnumber": "",
+        "workshopPM": "",
+        "workshopPMspeakers": "",
+        "thursdaySession1": "",
+        "thursdaySession2": "",
+        "thursdaySession3": "",
+        "fridaySession1": "",
+        "fridaySession2": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -201,7 +242,18 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Alexander"
+        "NAME": "Alexander",
+        "workshopAMnumber": "",
+        "workshopAM": "",
+        "workshopAMspeakers": "",
+        "workshopPMnumber": "",
+        "workshopPM": "",
+        "workshopPMspeakers": "",
+        "thursdaySession1": "",
+        "thursdaySession2": "",
+        "thursdaySession3": "",
+        "fridaySession1": "",
+        "fridaySession2": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -234,7 +286,18 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Bell"
+        "NAME": "Bell",
+        "workshopAMnumber": "",
+        "workshopAM": "",
+        "workshopAMspeakers": "",
+        "workshopPMnumber": "",
+        "workshopPM": "",
+        "workshopPMspeakers": "",
+        "thursdaySession1": "",
+        "thursdaySession2": "",
+        "thursdaySession3": "",
+        "fridaySession1": "",
+        "fridaySession2": ""
       },
       "geometry": {
         "type": "Polygon",
