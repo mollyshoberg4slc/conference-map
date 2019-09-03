@@ -1041,7 +1041,8 @@ var hotels = L.geoJson(null, {
           pubsHTML += "</table>";
 
           $("#feature-title").html(feature.properties.NAME);
-          $("#feature-info").html(content + pubsHTML);
+          // $("#feature-info").html(content + pubsHTML);
+          $("#feature-info").html(content);
           $("#featureModal").modal("show");
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
             stroke: false,
