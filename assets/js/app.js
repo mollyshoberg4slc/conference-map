@@ -913,7 +913,7 @@ var funRunWalkRoute = L.geoJson(null, {
 					"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 4, 2019 @ 6:15 a.m." + "</td></tr>" +
 					"<tr><th scope='row'>Start/Finish Location</th><td>" + "River's Edge Convention Center (1st St N/5th Ave N)" + "</td></tr>" +
 					"<tr><th scope='row'>Start/Finish Address</th><td>" + "10 4th Ave S" + "</td></tr>" +
-					"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will recieve a commemorative t-shirt after completion." + "</td></tr>" +
+					"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will receive a commemorative t-shirt after completion." + "</td></tr>" +
 					"<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows 2nd Street South over the river and Riverside Drive SE to the 'turn around point', returning along Riverside Drive SE, 10th Street SE, 5th Avenue SE, and 7th Street SE before returning to Riverside Drive SE and 2nd Street South. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather!" +
 					"</td></tr>" + "<table>";
 		
@@ -1642,7 +1642,7 @@ map.on('almost:click', function (e) {
 		"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 4, 2019 @ 6:15 a.m." + "</td></tr>" +
 		"<tr><th scope='row'>Start/Finish Location</th><td>" + "River's Edge Convention Center (1st St N/5th Ave N)" + "</td></tr>" +
 		"<tr><th scope='row'>Start/Finish Address</th><td>" + "10 4th Ave S" + "</td></tr>" +
-		"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will recieve a commemorative t-shirt after completion." + "</td></tr>" +
+		"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will receive a commemorative t-shirt after completion." + "</td></tr>" +
 		"<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows 2nd Street South over the river and Riverside Drive SE to the 'turn around point', returning along Riverside Drive SE, 10th Street SE, 5th Avenue SE, and 7th Street SE before returning to Riverside Drive SE and 2nd Street South. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather!" +
 		"</td></tr>" + "<table>";
 	$("#feature-title").html("Official 5k Fun Run/Walk Route");
