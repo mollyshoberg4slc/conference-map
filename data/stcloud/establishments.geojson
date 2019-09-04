@@ -15,7 +15,8 @@
         "NAME": "7 West Taphouse",
         "ADDRESS": "28 5th Ave S",
         "URL": "http://www.7westtaphouse.com/st-cloud",
-        "HOURS": "11:00 am - 12:00 am (Tue-Wed); 11:00 am - 1:00 am (Thu-Fri)"
+        "HOURS": "11:00 am - 12:00 am (Tue-Wed); 11:00 am - 1:00 am (Thu-Fri)",
+        "PUB": 1
       }
     },
     {
@@ -32,7 +33,8 @@
         "NAME": "Beaver Island Brewing Company",
         "ADDRESS": "216 6th Ave S",
         "URL": "https://www.beaverislandbrew.com/",
-        "HOURS": "3:00 pm - 10:00 pm (Tue-Thu); 12:00 pm - 10:00 pm"
+        "HOURS": "3:00 pm - 10:00 pm (Tue-Thu); 12:00 pm - 10:00 pm",
+        "PUB": 1
       }
     },
     {
@@ -66,7 +68,8 @@
         "NAME": "Cowboy Jack's",
         "ADDRESS": "506 W St Germain St",
         "URL": "http://theaftermidnightgroup.com/locations/",
-        "HOURS": "11:00 am - 2:00 am"
+        "HOURS": "11:00 am - 2:00 am",
+        "PUB": 1
       }
     },
     {
@@ -168,7 +171,8 @@
         "NAME": "Green Mill",
         "ADDRESS": "100 4th Ave S",
         "URL": "https://www.greenmill.com/locations/st-cloud/",
-        "HOURS": "6:30 am - 12:30 am"
+        "HOURS": "6:30 am - 12:30 am",
+        "PUB": 1
       }
     },
     {
@@ -185,7 +189,8 @@
         "NAME": "House of Pizza",
         "ADDRESS": "19th 5th Ave S",
         "URL": "http://houseofpizzamn.com/",
-        "HOURS": "11:00 am - 11:00 pm"
+        "HOURS": "11:00 am - 11:00 pm",
+        "PUB": 1
       }
     },
     {
@@ -202,7 +207,8 @@
         "NAME": "Howie's Sports Bar & Grill",
         "ADDRESS": "101 9th Ave N",
         "URL": "https://www.facebook.com/HowiesSportsBarStCloud/",
-        "HOURS": ""
+        "HOURS": "",
+        "PUB": 1
       }
     },
     {
@@ -256,7 +262,8 @@
         "NAME": "Jules' Bistro",
         "ADDRESS": "921 W St Germain St",
         "URL": "http://julesbistrostcloud.com/",
-        "HOURS": "7:30 am - 10:00 pm"
+        "HOURS": "7:30 am - 10:00 pm",
+        "PUB": 1
       }
     },
     {
@@ -273,7 +280,8 @@
         "NAME": "MC's Dugout Bar & Grill",
         "ADDRESS": "501 W St Germain St",
         "URL": "http://mcsdugout.com/",
-        "HOURS": "11:00 am - 2:00 am"
+        "HOURS": "11:00 am - 2:00 am",
+        "PUB": 1
       }
     },
     {
@@ -290,7 +298,8 @@
         "NAME": "Mexican Village",
         "ADDRESS": "509 W St Germain St",
         "URL": "http://www.mexicanvillagestcloud.com/",
-        "HOURS": "11:00 am - 9:00 pm"
+        "HOURS": "11:00 am - 9:00 pm",
+        "PUB": 1
       }
     },
     {
@@ -327,7 +336,8 @@
         "NAME": "Olde Brick House",
         "ADDRESS": "102 6th Ave S",
         "URL": "http://oldebrickhousemn.com/",
-        "HOURS": "11:00 am - 11:00 pm (Tue-Thu); 11:00 am - 12:00 am (Fri)"
+        "HOURS": "11:00 am - 11:00 pm (Tue-Thu); 11:00 am - 12:00 am (Fri)",
+        "PUB": 1
       }
     },
     {
@@ -364,7 +374,8 @@
         "NAME": "Red Carpet Nightclub",
         "ADDRESS": "11 5th Ave S.",
         "URL": "http://www.redcarpetnightclub.com/",
-        "HOURS": "4:00 pm - 2:00 am"
+        "HOURS": "4:00 pm - 2:00 am",
+        "PUB": 1
       }
     },
     {
@@ -381,7 +392,8 @@
         "NAME": "Sawatdee Thai Restaurant",
         "ADDRESS": "800 W St Germain St",
         "URL": "https://www.sawatdee.com/saint-cloud-menu",
-        "HOURS": "11:00 am - 9:00 pm"
+        "HOURS": "11:00 am - 9:00 pm",
+        "PUB": 1
       }
     },
     {
@@ -415,7 +427,8 @@
         "NAME": "The Bistro at Courtyard by Marriott Downtown",
         "ADDRESS": "404 W St Germain St",
         "URL": "https://www.marriott.com/hotels/hotel-information/restaurant/mobcy-courtyard-mobile/",
-        "HOURS": "6:30 am - 11:00 pm"
+        "HOURS": "6:30 am - 11:00 pm",
+        "PUB": 1
       }
     },
     {
@@ -432,7 +445,8 @@
         "NAME": "The Pickled Loon",
         "ADDRESS": "715 W St Germain St",
         "URL": "http://www.thepickledloon.com/",
-        "HOURS": "11:00 am - 2:00 am"
+        "HOURS": "11:00 am - 2:00 am",
+        "PUB": 1
       }
     },
     {
@@ -449,7 +463,8 @@
         "NAME": "Veranda Lounge",
         "ADDRESS": "22 5th Ave S",
         "URL": "http://www.ppfive.com/veranda-lounge-2/",
-        "HOURS": "4:00 pm - 12:00 pm (Tue-Thu); 4:00 pm - 1:00 am (Fri)"
+        "HOURS": "4:00 pm - 12:00 pm (Tue-Thu); 4:00 pm - 1:00 am (Fri)",
+        "PUB": 1
       }
     },
     {
@@ -466,7 +481,8 @@
         "NAME": "White Horse Restaurant & Bar",
         "ADDRESS": "809 W St Germain St",
         "URL": "http://www.whitehorsemn.com/",
-        "HOURS": "11:00 am - 2:00 am"
+        "HOURS": "11:00 am - 2:00 am",
+        "PUB": 1
       }
     },
     {
@@ -476,7 +492,8 @@
         "NAME": "Kohinoor Bar & Grill",
         "ADDRESS": "17 7th Ave S",
         "HOURS": "11:00 am - 2:30 pm; 4:30 - 9:30 pm",
-        "URL": "https://www.kohinoorbar.com/"
+        "URL": "https://www.kohinoorbar.com/",
+        "PUB": 1
       },
       "geometry": {
         "type": "Point",

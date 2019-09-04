@@ -988,6 +988,9 @@ var hotels = L.geoJson(null, {
           var establishmentFeatures = establishments.toGeoJSON();
           var hotelFeatures = hotels.toGeoJSON();
 
+          // Filter establishments down to those flagged as pub
+          establishmentFeatures.features = establishmentFeatures.features.filter(function(val) {if ("PUB" in val.properties && val.properties.PUB === 1) {return true;} return false;})
+
           // Using Turf, find the nearest establishment to hotel moused-over
           var nearestEstablishment = turf.nearest(e.target.feature, establishmentFeatures);
 
