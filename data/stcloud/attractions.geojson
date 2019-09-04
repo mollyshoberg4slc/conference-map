@@ -82,6 +82,21 @@
           45.56123956542054
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Riverside Park",
+        "HOURS": "6:00 am - 10:00 pm",
+        "WEBSITE": "http://mn-stcloud.civicplus.com/Facilities/Facility/Details/25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.14364814758301,
+          45.54550023005523
+        ]
+      }
     }
   ]
 }
