@@ -4,10 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "NAME": "Keynotes & Geolounge (Terry Haws C)"
+        "NAME": "Keynotes, Lunches, Exhibit Hall"
       },
       "geometry": {
         "type": "Point",
@@ -20,9 +17,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "NAME": "Bell"
       },
       "geometry": {
@@ -36,9 +30,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "NAME": "Alexander"
       },
       "geometry": {
@@ -52,9 +43,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "NAME": "Weidner"
       },
       "geometry": {
@@ -68,9 +56,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "NAME": "Edelbrock"
       },
       "geometry": {
@@ -84,9 +69,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "NAME": "Clarke"
       },
       "geometry": {
@@ -100,9 +82,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "NAME": "HOLL"
       },
       "geometry": {
@@ -110,6 +89,19 @@
         "coordinates": [
           -94.15664345026016,
           45.56221796327954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Geolounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15633767843246,
+          45.56204237873786
         ]
       }
     }

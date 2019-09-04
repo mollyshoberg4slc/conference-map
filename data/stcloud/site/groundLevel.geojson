@@ -4,11 +4,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Keynotes & Geolounge",
-        "polyType": "Geolounge",
-        "wedHours": "",
+        "NAME": "Keynotes, Lunches, Exhibit Hall",
+        "polyType": "Keynotes & exhibits",
+        "wedHours": "2:00 pm - 5:00 pm",
         "thursHours": "",
-        "friHours": "",
+        "friHours": "8:00 am - 12:00 pm",
         "activityWed": "Brianne Wegter and Melissa Gebhardt",
         "activityThurs": "Joseph Kerski",
         "activityThurs2": "Awards Luncheon",
@@ -324,6 +324,47 @@
             [
               -94.15593903511764,
               45.56189519715511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Geolounge",
+        "polyType": "Geolounge",
+        "wedHours": "",
+        "thursHours": "",
+        "friHours": "",
+        "activityWed": "",
+        "activityThurs": "",
+        "activityThurs2": "",
+        "activityFri": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15619686245917,
+              45.56203486708744
+            ],
+            [
+              -94.15625452995299,
+              45.562094960262435
+            ],
+            [
+              -94.15635645389555,
+              45.5620489514311
+            ],
+            [
+              -94.15629878640173,
+              45.56198791924977
+            ],
+            [
+              -94.15619686245917,
+              45.56203486708744
             ]
           ]
         ]
