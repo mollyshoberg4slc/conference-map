@@ -1044,6 +1044,10 @@ var hotels = L.geoJson(null, {
 
           // Find all pubs within 1km
           var establishmentFeatures = establishments.toGeoJSON();
+
+          // Filter establishments down to those flagged as pub
+          establishmentFeatures.features = establishmentFeatures.features.filter(function(val) {if ("PUB" in val.properties && val.properties.PUB === 1) {return true;} return false;})
+
           kmBuffer = turf.buffer(e.target.feature,1,'kilometers');
           nearbyPubs = turf.within(establishmentFeatures,kmBuffer);
 
@@ -1078,8 +1082,7 @@ var hotels = L.geoJson(null, {
           pubsHTML += "</table>";
 
           $("#feature-title").html(feature.properties.NAME);
-          // $("#feature-info").html(content + pubsHTML);
-          $("#feature-info").html(content);
+          $("#feature-info").html(content + pubsHTML);
           $("#featureModal").modal("show");
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
             stroke: false,
