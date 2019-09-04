@@ -3,6 +3,7 @@
   "features": [
     {
       "type": "Feature",
+      "id": 0,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -19,6 +20,7 @@
     },
     {
       "type": "Feature",
+      "id": 1,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -35,6 +37,7 @@
     },
     {
       "type": "Feature",
+      "id": 2,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -51,6 +54,7 @@
     },
     {
       "type": "Feature",
+      "id": 3,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -67,6 +71,7 @@
     },
     {
       "type": "Feature",
+      "id": 4,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -83,6 +88,7 @@
     },
     {
       "type": "Feature",
+      "id": 5,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -99,6 +105,7 @@
     },
     {
       "type": "Feature",
+      "id": 6,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -115,6 +122,7 @@
     },
     {
       "type": "Feature",
+      "id": 7,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -131,6 +139,7 @@
     },
     {
       "type": "Feature",
+      "id": 8,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -147,6 +156,7 @@
     },
     {
       "type": "Feature",
+      "id": 9,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -163,6 +173,7 @@
     },
     {
       "type": "Feature",
+      "id": 10,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -179,6 +190,7 @@
     },
     {
       "type": "Feature",
+      "id": 11,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -195,6 +207,7 @@
     },
     {
       "type": "Feature",
+      "id": 12,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -211,6 +224,7 @@
     },
     {
       "type": "Feature",
+      "id": 13,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -230,6 +244,7 @@
     },
     {
       "type": "Feature",
+      "id": 14,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -246,6 +261,7 @@
     },
     {
       "type": "Feature",
+      "id": 15,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -262,6 +278,7 @@
     },
     {
       "type": "Feature",
+      "id": 16,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -278,6 +295,7 @@
     },
     {
       "type": "Feature",
+      "id": 17,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -294,6 +312,7 @@
     },
     {
       "type": "Feature",
+      "id": 18,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -313,6 +332,7 @@
     },
     {
       "type": "Feature",
+      "id": 19,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -329,6 +349,7 @@
     },
     {
       "type": "Feature",
+      "id": 20,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -348,6 +369,7 @@
     },
     {
       "type": "Feature",
+      "id": 21,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -364,6 +386,7 @@
     },
     {
       "type": "Feature",
+      "id": 22,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -380,6 +403,7 @@
     },
     {
       "type": "Feature",
+      "id": 23,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -396,6 +420,7 @@
     },
     {
       "type": "Feature",
+      "id": 24,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -412,6 +437,7 @@
     },
     {
       "type": "Feature",
+      "id": 25,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -428,6 +454,7 @@
     },
     {
       "type": "Feature",
+      "id": 26,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -444,6 +471,7 @@
     },
     {
       "type": "Feature",
+      "id": 27,
       "properties": {
         "NAME": "Kohinoor Bar & Grill",
         "ADDRESS": "17 7th Ave S",
