@@ -1166,11 +1166,18 @@ var attractions = L.geoJson(null, {
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" +
-      "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>" +
-      "<tr><th scope='row'>Hours</th><td>" + feature.properties.HOURS + "</td></tr>" +
-      "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>" +
-   	  "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.WEBSITE + "' target='_blank'>" + feature.properties.WEBSITE + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr>" + "<table>";
+      var content = "<table class='table table-striped table-bordered table-condensed'>";
+      if ("ADDRESS" in feature.properties && feature.properties.ADDRESS !== "") {
+        content += "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>";
+      }
+      if ("HOURS" in feature.properties && feature.properties.HOURS !== "") {
+        content += "<tr><th scope='row'>Hours</th><td>" + feature.properties.HOURS + "</td></tr>";
+      }
+      if ("COST" in feature.properties && feature.properties.COST !== "") {
+        content += "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>";
+      }
+      content += "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.WEBSITE + "' target='_blank'>" + feature.properties.WEBSITE + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr>";
+      content += "</table>";
       layer.on({
         click: function (e) {
 	      $("#feature-title").html(feature.properties.NAME);
