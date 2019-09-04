@@ -242,6 +242,7 @@ style: function (feature) {
                   "<div class='tab-content' id='esriHOLLcontent'>" +
                     "<div class='tab-pane fade active in' id='holl'>" +
                       "<div class='modal-body'>" +
+                        "<p>Hours are tentative as of September 3.</p>" +
                         "<table class='table table-striped table-bordered table-condensed'>" +
                         "<tr><th scope='row'>Wednesday Hours</th><td>" + feature.properties.wedHours + "</td></tr>" +
                         "<tr><th scope='row'>Thursday Hours</th><td>" + feature.properties.thursHours + "</td></tr>" +

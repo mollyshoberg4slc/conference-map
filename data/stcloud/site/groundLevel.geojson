@@ -79,9 +79,9 @@
       "properties": {
         "NAME": "Board Room C",
         "polyType": "Esri Lab",
-        "wedHours": "",
-        "thursHours": "",
-        "friHours": ""
+        "wedHours": "9:00 am - 5:00 pm (lunch break 12:00 pm - 1:00 pm)",
+        "thursHours": "10:30 am - 5:00 pm (lunch break 12:00 pm - 1:00 pm)",
+        "friHours": "8:30 am - 12:00 pm"
       },
       "geometry": {
         "type": "Polygon",
