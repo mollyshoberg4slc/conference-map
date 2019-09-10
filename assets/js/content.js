@@ -332,7 +332,7 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="row">10:00 am - 10:30 am</th><td>Morning Break</td><td></td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Speed Networking</td><td></td></tr>';
+    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Speed Networking</td><td>Edelbrock/Clarke</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">10:30 am - 12:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
