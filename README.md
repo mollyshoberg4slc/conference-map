@@ -60,10 +60,11 @@ if (conferenceCity == "bemidji") {
 ```  
 
 ## Sharing the map (on the Consortium's website)  
-To embed the map on a page add in the following HTML content to the page:  
+The conference map has generally been linked to from the conference page navigation. The map can also
+be embbed using an `iframe`, e.g.
 
 ```html
-<iframe src="//geospatialem.github.io/conference-map" frameborder="0" width="600" height="400"></iframe>   
+<iframe src="https://mn-gis-lis.github.io/conference-map" frameborder="0" width="600" height="400"></iframe>   
 ```  
 
 ## Future enhancements  
