@@ -324,7 +324,7 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="row">7:30 am - 5:00 pm</th><td>Registration</td><td>Registration Desk</td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">7:30 am</th><td>Conference Mentor Meet and Greet</td><td>Geolounge</td></tr>';
+    '<tr><th scope="row">7:30 am - 8:00 am</th><td>Conference Mentor Meet and Greet</td><td>Geolounge</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">8:00 am - 8:30 am</th><td>Conference Welcome</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
