@@ -77,6 +77,9 @@ if (conferenceCity == "bemidji") {
   /* TODO: Open registration */
   aboutConferenceText +=
     '<!--<li class="list-group-item">Ready to go? <a href="https://www.mngislis.org/event/2019-conference-reg" target="_blank">Register for the annual conference! (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a> </li>-->';
+  aboutConferenceText +=
+    '<li class="list-group-item">View the official <a href="docs/2019_FunRunMap.pdf" download="2018_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).</li>';
+
   // aboutConferenceText +=
   //   '<li class="list-group-item">View the official <a href="docs/2018_FunRunMap.pdf" download="2018_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).</li>';
   //aboutConferenceText += "<li class=\"list-group-item\">Check out our <a href=\"\/\/c.ymcdn.com\/sites\/www.mngislis.org\/resource\/resmgr\/conf2016\/mngislis_preliminary_program.pdf\" target=\"_blank\">preliminary program! (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a> <\/li>";
