@@ -50,7 +50,7 @@ aboutConferenceText +=
   '<div class="panel-heading">Additional Information:</div>';
 aboutConferenceText += '<ul class="list-group">';
 aboutConferenceText +=
-  '<li class="list-group-item">Join the conversation on social media! We\'ll be tweeting live at <a href="//twitter.com/mngislis">@MNGISLIS</a> using <a href="//twitter.com/hashtag/mngislis?f=tweets&vertical=default">#mngislis</a>.</li>';
+  '<li class="list-group-item">Join the conversation on social media! We\'ll be tweeting live at <a href="//twitter.com/mngislis">@MNGISLIS</a> using <a href="//twitter.com/hashtag/mngislis2019?f=tweets&vertical=default">#mngislis2019</a>.</li>';
 
 if (conferenceCity == "bemidji") {
   aboutConferenceText +=
