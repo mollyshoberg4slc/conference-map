@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Terry Haws C (Keynotes, Exhibit Hall)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.156973361969,
+          45.56212782369031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15595680475235,
+          45.56192500908577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Alexander"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15592461824417,
+          45.561870549483956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Weidner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15585219860075,
+          45.561842380703666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Edelbrock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15585219860075,
+          45.56176726388719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Clarke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15577441453934,
+          45.561799188546466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Board Room C"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15664345026016,
+          45.56221796327954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Geolounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15633767843246,
+          45.56204237873786
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Aerial Lift Bridge",
+        "ADDRESS": "1802 County Road 137, Waite Park",
+        "HOURS": "8:00 am - 30 minutes past sunset",
+        "COST": "Free",
+        "WEBSITE": "https://co.stearns.mn.us/Recreation/CountyParks/QuarryParkandNaturePreserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.24115180969238,
+          45.53557354302325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Munsinger Gardens",
+        "ADDRESS": "1515 Riverside Dr SE",
+        "HOURS": "7:00 am - 10:00 pm",
+        "COST": "Free",
+        "WEBSITE": "http://www.munsingerclemens.com/the-gardens/munsinger-gardens/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.14456009864807,
+          45.55135322325194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Clemens Gardens",
+        "ADDRESS": "1301 Kilian Blvd SE",
+        "HOURS": "7:00 am - 10:00 pm",
+        "COST": "Free",
+        "WEBSITE": "http://www.munsingerclemens.com/the-gardens/clemens-gardens/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.14348721504211,
+          45.550414080542865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Stearns History Museum",
+        "ADDRESS": "235 33rd Ave S",
+        "HOURS": "Vary, see website",
+        "COST": "Varies, see website",
+        "WEBSITE": "http://stearns-museum.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20269966125488,
+          45.54768672116103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Riverwalk Tour",
+        "WEBSITE": "https://www.ci.stcloud.mn.us/116/Mississippi-River"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.15205955505371,
+          45.56123956542054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Riverside Park",
+        "HOURS": "6:00 am - 10:00 pm",
+        "WEBSITE": "http://mn-stcloud.civicplus.com/Facilities/Facility/Details/25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.14364814758301,
+          45.54550023005523
+        ]
+      }
+    }
+  ]
+}

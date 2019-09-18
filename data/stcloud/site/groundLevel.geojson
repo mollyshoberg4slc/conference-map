@@ -1,0 +1,374 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Keynotes, Lunches, Exhibit Hall",
+        "polyType": "Keynotes & exhibits",
+        "wedHours": "2:00 pm - 5:00 pm",
+        "thursHours": "",
+        "friHours": "8:00 am - 12:00 pm",
+        "activityWed": "Brianne Wegter and Melissa Gebhardt",
+        "activityThurs": "Joseph Kerski",
+        "activityThurs2": "Awards Luncheon",
+        "activityFri": "Kenny Blumenfeld"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15671654045582,
+              45.561804352827885
+            ],
+            [
+              -94.15641680359839,
+              45.56193768502002
+            ],
+            [
+              -94.15669575333595,
+              45.56224378448942
+            ],
+            [
+              -94.15667429566383,
+              45.562255521399045
+            ],
+            [
+              -94.15671687573195,
+              45.56229190580336
+            ],
+            [
+              -94.15673263370991,
+              45.56228533313852
+            ],
+            [
+              -94.1567825898528,
+              45.56235340712999
+            ],
+            [
+              -94.15683925151824,
+              45.56232617754327
+            ],
+            [
+              -94.15689323097466,
+              45.56238838304526
+            ],
+            [
+              -94.15694419294596,
+              45.56236608296755
+            ],
+            [
+              -94.15704846382141,
+              45.56247523589503
+            ],
+            [
+              -94.15723420679569,
+              45.56239847676172
+            ],
+            [
+              -94.15671654045582,
+              45.561804352827885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Board Room C",
+        "polyType": "Esri Lab",
+        "wedHours": "9:00 am - 5:00 pm (lunch break 12:00 pm - 1:00 pm)",
+        "thursHours": "10:30 am - 5:00 pm (lunch break 12:00 pm - 1:00 pm)",
+        "friHours": "8:30 am - 12:00 pm"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15658980607986,
+              45.562261624591095
+            ],
+            [
+              -94.1566501557827,
+              45.56223110862422
+            ],
+            [
+              -94.15658310055733,
+              45.56216444291587
+            ],
+            [
+              -94.15652073919773,
+              45.562195428395796
+            ],
+            [
+              -94.15658980607986,
+              45.562261624591095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Weidner",
+        "workshopAMnumber": "WK003",
+        "workshopAM": "Parcel Management in Pro - What's Changing?",
+        "workshopAMspeakers": "Lisa Schaerfer",
+        "workshopPMnumber": "WK013",
+        "workshopPM": "Editing in ArcGIS Pro (Non-Parcel Fabric)",
+        "workshopPMspeakers": "Frank Conkling",
+        "thursdaySession1": "Session 3: Lightning",
+        "thursdaySession2": "Session 11: Lightning 2",
+        "thursdaySession3": "Session 19: Lightning 3",
+        "fridaySession1": "Session 27: GAC (Data Standards)",
+        "fridaySession2": "Session 32: Data Collection"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15578581392764,
+              45.56189449293608
+            ],
+            [
+              -94.15589645504951,
+              45.56184707550135
+            ],
+            [
+              -94.15585085749625,
+              45.561796371665494
+            ],
+            [
+              -94.15574021637438,
+              45.56184285018341
+            ],
+            [
+              -94.15578581392764,
+              45.56189449293608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Clarke",
+        "polyType": "PM Workshop",
+        "workshopPMnumber": "WK020",
+        "workshopPM": "Creating Dashboards with Configurable Apps",
+        "workshopPMspeakers": "Gustavo Castro",
+        "thursdaySession1": "Session 5: Story Maps",
+        "thursdaySession2": "Session 13: Enterprise GIS 2",
+        "thursdaySession3": "Session 22: GPS/GNSS",
+        "fridaySession1": "Session 31: CAD",
+        "fridaySession2": "Session 39: Remote Sensing Panel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15573988109826,
+              45.56184261544354
+            ],
+            [
+              -94.15579352527855,
+              45.56182008040924
+            ],
+            [
+              -94.15575262159108,
+              45.56177594927424
+            ],
+            [
+              -94.15569964796303,
+              45.56179754536592
+            ],
+            [
+              -94.15573988109826,
+              45.56184261544354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Edelbrock",
+        "workshopAMnumber": "WK004",
+        "workshopAM": "GIS in the County Emergency Operations Center",
+        "workshopAMspeakers": "Randy Knippel",
+        "workshopPMnumber": "WK004",
+        "workshopPM": "GIS in the County Emergency Operations Center",
+        "workshopPMspeakers": "Randy Knippel",
+        "thursdaySession1": "Session 5: Story Maps",
+        "thursdaySession2": "Session 13: Enterprise GIS 2",
+        "thursdaySession3": "Session 22: GPS/GNSS",
+        "fridaySession1": "Session 31: CAD",
+        "fridaySession2": "Session 39: Remote Sensing Panel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15579419583082,
+              45.56182008040927
+            ],
+            [
+              -94.15585052222013,
+              45.561796136925416
+            ],
+            [
+              -94.15581095963717,
+              45.5617527099924
+            ],
+            [
+              -94.15575329214334,
+              45.56177594927424
+            ],
+            [
+              -94.15579419583082,
+              45.56182008040927
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Alexander",
+        "workshopAMnumber": "WK002",
+        "workshopAM": "Introduction to Collector for ArcGIS",
+        "workshopAMspeakers": "Chris Pouliot & Mike Tronrud",
+        "workshopPMnumber": "WK012",
+        "workshopPM": "Intermediate Collector",
+        "workshopPMspeakers": "Chris Pouliot & Mike Tronrud",
+        "thursdaySession1": "Session 6: Education",
+        "thursdaySession2": "Session 16: Graduate Student Competition",
+        "thursdaySession3": "Session 18: LiDAR Panel",
+        "fridaySession1": "Session 39: Remote Sensing Panel",
+        "fridaySession2": "Session 38: Agribusiness Research Project"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15589645504951,
+              45.56184731024124
+            ],
+            [
+              -94.15582973510027,
+              45.561876183238326
+            ],
+            [
+              -94.15587231516837,
+              45.561923131169344
+            ],
+            [
+              -94.15593937039375,
+              45.56189496241544
+            ],
+            [
+              -94.15589645504951,
+              45.56184731024124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bell",
+        "workshopAMnumber": "WK001",
+        "workshopAM": "Configuring ArcGIS Online Applications for Data Collection, Visualization, and Analysis",
+        "workshopAMspeakers": "Jesse Adams & Ethan Borgen",
+        "workshopPMnumber": "WK011",
+        "workshopPM": "cARTography 101",
+        "workshopPMspeakers": "Jacqueline Kovarik & Rachel Koch",
+        "thursdaySession1": "Session 7: Undegrad Student Competion 1",
+        "thursdaySession2": "Session 15: Undergrad Student Competition 2",
+        "thursdaySession3": "Session 23: GIS Career Panel",
+        "fridaySession1": "Session 26: GIS & Gender Panel",
+        "fridaySession2": "Session 37: Natural Resources 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15593903511764,
+              45.56189519715511
+            ],
+            [
+              -94.15587298572063,
+              45.561923131169344
+            ],
+            [
+              -94.15591590106489,
+              45.561968670625006
+            ],
+            [
+              -94.15597960352896,
+              45.56194097137285
+            ],
+            [
+              -94.15593903511764,
+              45.56189519715511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Geolounge",
+        "polyType": "Geolounge",
+        "wedHours": "",
+        "thursHours": "",
+        "friHours": "",
+        "activityWed": "",
+        "activityThurs": "",
+        "activityThurs2": "",
+        "activityFri": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.15619686245917,
+              45.56203486708744
+            ],
+            [
+              -94.15625452995299,
+              45.562094960262435
+            ],
+            [
+              -94.15635645389555,
+              45.5620489514311
+            ],
+            [
+              -94.15629878640173,
+              45.56198791924977
+            ],
+            [
+              -94.15619686245917,
+              45.56203486708744
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

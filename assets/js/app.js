@@ -30,11 +30,13 @@ $("#full-extent-btn").click(function() {
   	map.fitBounds([[46.7786733259, -92.1083088853],[46.786163129, -92.0913457505]]);
   } else if (conferenceCity == "bemidji") {
     map.fitBounds([[47.4509021555, -94.9586105347],[47.5572987869, -94.7890090942]]);
+  } else if (conferenceCity == "stcloud") {
+    map.fitBounds([[45.57304680685471, -94.13176059722902], [45.54819764153181, -94.17802333831789]])
   } else {
     //Do nothing
   }
 
-$(".navbar-collapse.in").collapse("hide");
+  $(".navbar-collapse.in").collapse("hide");
   return false;
 });
 
@@ -44,11 +46,13 @@ $("#conference-extent-btn").click(function() {
   	map.fitBounds([[46.7817821466, -92.0969683742],[46.7805432416, -92.0989721204]]);
   } else if (conferenceCity == "bemidji") {
     map.fitBounds([[47.4627447273, -94.8547276855],[47.4643416544, -94.8522180319]]);
+  } else if (conferenceCity == "stcloud") {
+    map.fitBounds([[45.563425444248935, -94.15385127067567], [45.56031936762543, -94.15963411331178]])
   } else {
     //Do nothing
-}
+  }
 
-$(".navbar-collapse.in").collapse("hide");
+  $(".navbar-collapse.in").collapse("hide");
   return false;
 });
 
@@ -166,6 +170,259 @@ style: function (feature) {
           "</div>" +
           "</div>" +
           "</div>"
+      } else  if (feature.properties.polyType === "Geolounge") { //Keynotes & Geolounge
+        return // open space for 2019
+        var content =
+            "<ul class='nav nav-tabs nav nav-justified' id='ballroomContent'>" +
+              "<li class='active'><a href='#wed' data-toggle='tab'>Wednesday</a></li>" +
+              "<li><a href='#thurs' data-toggle='tab'>Thursday</a></li>" +
+              "<li><a href='#fri' data-toggle='tab'>Friday</a></li>" +
+            "</ul>" +
+            "<div class='tab-content' id='ballroomContent'>" +
+              "<div class='tab-pane fade active in' id='wed'>" +
+                "<div class='modal-body'>" +
+                  "<table class='table table-striped table-bordered table-condensed'>" +
+                  "<tr><th scope='row'>Luncheon Keynote</th><td>" + feature.properties.activityWed + "</td></tr>" +
+                  "<tr><th scope='row'>Geolounge Hours</th><td>" + feature.properties.wedHours + "</td></tr></table><br/>" +
+                "</div>" +
+              "</div>" +
+              "<div class='tab-pane fade' id='thurs'>" +
+                "<div class='modal-body'>" +
+                  "<table class='table table-striped table-bordered table-condensed'>" +
+                  "<tr><th scope='row'>Opening Keynote</th><td>" + feature.properties.activityThurs + "</td></tr>" +
+                  "<tr><th scope='row'>Thursday Luncheon</th><td>" + feature.properties.activityThurs2 + "</td></tr>" +
+                  "<tr><th scope='row'>Geolounge Hours</th><td>" + feature.properties.thursHours + "</td></tr></table><br/>" +
+                "</div>" +
+              "</div>" +
+              "<div class='tab-pane fade' id='fri'>" +
+                "<div class='modal-body'>" +
+                  "<table class='table table-striped table-bordered table-condensed'>" +
+                  "<tr><th scope='row'>Closing Keynote</th><td>" + feature.properties.activityFri + "</td></tr>" +
+                  "<tr><th scope='row'>Geolounge Hours</th><td>" + feature.properties.friHours + "</td></tr></table>" +
+                "</div>" +
+              "</div>" +
+            "</div>"
+        } else  if (feature.properties.polyType === "Keynotes & exhibits") { //Keynotes & exhibits
+          var content =
+              "<ul class='nav nav-tabs nav nav-justified' id='ballroomContent'>" +
+                "<li class='active'><a href='#wed' data-toggle='tab'>Wednesday</a></li>" +
+                "<li><a href='#thurs' data-toggle='tab'>Thursday</a></li>" +
+                "<li><a href='#fri' data-toggle='tab'>Friday</a></li>" +
+              "</ul>" +
+              "<div class='tab-content' id='ballroomContent'>" +
+                "<div class='tab-pane fade active in' id='wed'>" +
+                  "<div class='modal-body'>" +
+                    "<table class='table table-striped table-bordered table-condensed'>" +
+                    "<tr><th scope='row'>Luncheon Keynote</th><td>" + feature.properties.activityWed + "</td></tr>" +
+                    "<tr><th scope='row'>Exhibit Hall Hours</th><td>" + feature.properties.wedHours + "</td></tr></table><br/>" +
+                  "</div>" +
+                "</div>" +
+                "<div class='tab-pane fade' id='thurs'>" +
+                  "<div class='modal-body'>" +
+                    "<table class='table table-striped table-bordered table-condensed'>" +
+                    "<tr><th scope='row'>Opening Keynote</th><td>" + feature.properties.activityThurs + "</td></tr>" +
+                    "<tr><th scope='row'>Thursday Luncheon</th><td>" + feature.properties.activityThurs2 + "</td></tr>" +
+                    // "<tr><th scope='row'>Exhibit Hall Hours</th><td>" + feature.properties.thursHours + "</td></tr>" +
+                    "</table><br/>" +
+                  "</div>" +
+                "</div>" +
+                "<div class='tab-pane fade' id='fri'>" +
+                  "<div class='modal-body'>" +
+                    "<table class='table table-striped table-bordered table-condensed'>" +
+                    "<tr><th scope='row'>Closing Keynote</th><td>" + feature.properties.activityFri + "</td></tr>" +
+                    "<tr><th scope='row'>Exhibit Hall Hours</th><td>" + feature.properties.friHours + "</td></tr></table>" +
+                  "</div>" +
+                "</div>" +
+              "</div>"
+          } else if (feature.properties.polyType === "Esri Lab") { //Esri HOLL
+                var content =
+                  "<ul class='nav nav-tabs nav nav-justified' id='esriHOLLcontent'>" +
+                    "<li class='active'><a href='#holl' data-toggle='tab'>Esri Learning Lab</a></li>" +
+                  "</ul>" +
+                  "<div class='tab-content' id='esriHOLLcontent'>" +
+                    "<div class='tab-pane fade active in' id='holl'>" +
+                      "<div class='modal-body'>" +
+                        "<p>Hours are tentative as of September 3.</p>" +
+                        "<table class='table table-striped table-bordered table-condensed'>" +
+                        "<tr><th scope='row'>Wednesday Hours</th><td>" + feature.properties.wedHours + "</td></tr>" +
+                        "<tr><th scope='row'>Thursday Hours</th><td>" + feature.properties.thursHours + "</td></tr>" +
+                        "<tr><th scope='row'>Friday Hours</th><td>" + feature.properties.friHours + "</td></tr></table><br/>" +
+                      "</div>" +
+                    "</div>" +
+                  "</div>"
+    } else if (feature.properties.polyType === "AM Workshop") { //AM only workshop, Thursday + Friday
+        var content =
+        "<ul class='nav nav-tabs nav nav-justified' id='limitedWorkshopContent'>" +
+          "<li class='active'><a href='#wedWorkshops' data-toggle='tab'>Wednesday Workshops</a></li>" +
+          "<li><a href='#thursSessions' data-toggle='tab'>Thursday Sessions</a></li>" +
+        "</ul>" +
+        "<div class='tab-content' id='limitedWorkshopContent'>" +
+          "<div class='tab-pane fade active in' id='wedWorkshops'>" +
+            "<div class='modal-body'>" +
+              "<table class='table table-striped table-bordered table-condensed'>" +
+                "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr></table>" +
+            "</div>" +
+        "</div>" +
+           "<div class='tab-pane fade' id='thursSessions'>" +
+             "<div class='modal-body'>" +
+               "<table class='table table-striped table-bordered table-condensed'>" +
+               "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.thursdaySession1 + "</td></tr>" +
+               "<tr><th scope='row'>1:30 pm - 3:00 pm</th><td>" + feature.properties.thursdaySession2 + "</td></tr>" +
+               "<tr><th scope='row'>3:30 pm - 5:00 pm</th><td>" + feature.properties.thursdaySession3 + "</td></tr></table>" +
+             "</div>" +
+           "</div>" +
+      "</div>"
+    } else if (feature.properties.polyType === "PM Workshop") { //PM only workshop
+          var content =
+          "<ul class='nav nav-tabs nav nav-justified' id='pmWorkshopContent'>" +
+            "<li class='active'><a href='#wedPmWorkshops' data-toggle='tab'>Wednesday Workshops</a></li>" +
+            "<li><a href='#thursSessions' data-toggle='tab'>Thursday Sessions</a></li>" +
+            "<li><a href='#friSessions' data-toggle='tab'>Friday Sessions</a></li>" +
+          "</ul>" +
+          "<div class='tab-content' id='pmWorkshopContent'>" +
+            "<div class='tab-pane fade active in' id='wedPmWorkshops'>" +
+              "<div class='modal-body'>" +
+                "<table class='table table-striped table-bordered table-condensed'>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+              "</div>" +
+          "</div>" +
+             "<div class='tab-pane fade' id='thursSessions'>" +
+               "<div class='modal-body'>" +
+                 "<table class='table table-striped table-bordered table-condensed'>" +
+                 "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.thursdaySession1 + "</td></tr>" +
+                 "<tr><th scope='row'>1:30 pm - 3:00 pm</th><td>" + feature.properties.thursdaySession2 + "</td></tr>" +
+                 "<tr><th scope='row'>3:30 pm - 5:00 pm</th><td>" + feature.properties.thursdaySession3 + "</td></tr></table>" +
+               "</div>" +
+             "</div>" +
+             "<div class='tab-pane fade' id='friSessions'>" +
+               "<div class='modal-body'>" +
+                 "<table class='table table-striped table-bordered table-condensed'>" +
+                 "<tr><th scope='row'>8:30 am - 10:00 am</th><td>" + feature.properties.fridaySession1 + "</td></tr>" +
+                 "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.fridaySession2 + "</td></tr></table>"
+             "</div>" +
+           "</div>" +
+        "</div>"
+    } else if (feature.properties.polyType === "Sessions only") { //Sessions only
+          var content =
+          "<ul class='nav nav-tabs nav nav-justified' id='sessionsOnlyContent'>" +
+            "<li class='active'><a href='#thursSessions' data-toggle='tab'>Thursday Sessions</a></li>" +
+            "<li><a href='#friSessions' data-toggle='tab'>Friday Sessions</a></li>" +
+          "</ul>" +
+          "<div class='tab-content' id='sessionsOnlyContent'>" +
+             "<div class='tab-pane fade active in' id='thursSessions'>" +
+               "<div class='modal-body'>" +
+                 "<table class='table table-striped table-bordered table-condensed'>" +
+                 "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.thursdaySession1 + "</td></tr>" +
+                 "<tr><th scope='row'>1:30 pm - 3:00 pm</th><td>" + feature.properties.thursdaySession2 + "</td></tr>" +
+                 "<tr><th scope='row'>3:30 pm - 5:00 pm</th><td>" + feature.properties.thursdaySession3 + "</td></tr></table>" +
+               "</div>" +
+             "</div>" +
+             "<div class='tab-pane fade' id='friSessions'>" +
+               "<div class='modal-body'>" +
+                 "<table class='table table-striped table-bordered table-condensed'>" +
+                 "<tr><th scope='row'>8:30 am - 10:00 am</th><td>" + feature.properties.fridaySession1 + "</td></tr>" +
+                 "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.fridaySession2 + "</td></tr></table>"
+             "</div>" +
+           "</div>" +
+        "</div>"
+    } else if (feature.properties.polyType === "One Thursday User Group") { //One User Group
+            var content =
+            "<ul class='nav nav-tabs nav nav-justified' id='oneThursdayUG'>" +
+              "<li class='active'><a href='#thursUserGroup' data-toggle='tab'>Thursday User Groups</a></li>" +
+            "</ul>" +
+            "<div class='tab-content' id='oneThursdayUG'>" +
+               "<div class='tab-pane fade active in' id='thursUserGroup'>" +
+                 "<div class='modal-body'>" +
+                   "<table class='table table-striped table-bordered table-condensed'>" +
+                   "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.thursdaySession1 + "</td></tr></table>" +
+                 "</div>" +
+               "</div>" +
+          "</div>"
+       } else if (feature.properties.polyType === "Two Thursday User Groups") { //Two User Groups
+         var content =
+         "<ul class='nav nav-tabs nav nav-justified' id='twoThursdayUG'>" +
+           "<li class='active'><a href='#wedWorkshops' data-toggle='tab'>Wednesday Workshops</a></li>" +
+           "<li><a href='#thursUserGroups' data-toggle='tab'>Thursday User Groups</a></li>" +
+         "</ul>" +
+         "<div class='tab-content' id='twoThursdayUG'>" +
+           "<div class='tab-pane fade active in' id='wedWorkshops'>" +
+             "<div class='modal-body'>" +
+               "<table class='table table-striped table-bordered table-condensed'>" +
+                 "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                 "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+             "</div>" +
+         "</div>" +
+            "<div class='tab-pane fade' id='thursUserGroups'>" +
+              "<div class='modal-body'>" +
+                "<table class='table table-striped table-bordered table-condensed'>" +
+                "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.thursdaySession1 + "</td></tr>" +
+                "<tr><th scope='row'>1:30 pm - 3:00 pm</th><td>" + feature.properties.thursdaySession2 + "</td></tr></table>" +
+              "</div>" +
+            "</div>" +
+       "</div>"
+          } else if (feature.properties.polyType === "No sessions") { //No conference sessions
+            var content =
+            "<ul class='nav nav-tabs nav nav-justified' id='noSessionsContent'>" +
+              "<li class='active'><a href='#wedWorkshops' data-toggle='tab'>Wednesday Workshops</a></li>" +
+            "</ul>" +
+            "<div class='tab-content' id='noSessionsContent'>" +
+              "<div class='tab-pane fade active in' id='wedWorkshops'>" +
+                "<div class='modal-body'>" +
+                  "<table class='table table-striped table-bordered table-condensed'>" +
+                    "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                    "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>";
+              "</div>" +
+            "</div>" +
+         "</div>"
+       } else if (feature.properties.polyType === "No Friday sessions")  { //No Friday conference sessions
+                 var content =
+                 "<ul class='nav nav-tabs nav nav-justified' id='fullWorkshopContent'>" +
+                   "<li class='active'><a href='#wedWorkshops' data-toggle='tab'>Wednesday Workshops</a></li>" +
+                   "<li><a href='#thursSessions' data-toggle='tab'>Thursday Sessions</a></li>" +
+                 "</ul>" +
+                 "<div class='tab-content' id='fullWorkshopContent'>" +
+                   "<div class='tab-pane fade active in' id='wedWorkshops'>" +
+                     "<div class='modal-body'>" +
+                       "<table class='table table-striped table-bordered table-condensed'>" +
+                         "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                         "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                     "</div>" +
+                 "</div>" +
+                    "<div class='tab-pane fade' id='thursSessions'>" +
+                      "<div class='modal-body'>" +
+                        "<table class='table table-striped table-bordered table-condensed'>" +
+                        "<tr><th scope='row'>10:30 am - 12:00 pm</th><td>" + feature.properties.thursdaySession1 + "</td></tr>" +
+                        "<tr><th scope='row'>1:30 pm - 3:00 pm</th><td>" + feature.properties.thursdaySession2 + "</td></tr>" +
+                        "<tr><th scope='row'>3:30 pm - 5:00 pm</th><td>" + feature.properties.thursdaySession3 + "</td></tr></table>" +
+                      "</div>" +
+                    "</div>" +
+               "</div>"
+             } else if (feature.properties.polyType === "NSGIC") { //NSGIC conference
+                var content =
+                "<ul class='nav nav-tabs nav nav-justified' id='nsgicValuesContent'>" +
+                  "<li class='active'><a href='#nsgicNotAvailable' data-toggle='tab'>NSGIC Conference</a></li>" +
+                "</ul>" +
+                "<div class='tab-content' id='nsgicValuesContent'>" +
+                  "<div class='tab-pane fade active in' id='nsgicNotAvailable'>" +
+                    "<div class='modal-body'>" +
+                      "<table class='table table-striped table-bordered table-condensed'>" +
+                        "<tr><th scope='row'>NSGIC Conference</th><td>This room is reserved for the NSGIC Conference. No GIS/LIS workshops and/or sessions offered.</td></tr></table>";
+                  "</div>" +
+                "</div>" +
+             "</div>"
+             } else if (feature.properties.polyType === "No values") { //No values
+            var content =
+            "<ul class='nav nav-tabs nav nav-justified' id='noValuesContent'>" +
+              "<li class='active'><a href='#notAvailable' data-toggle='tab'>Not available</a></li>" +
+            "</ul>" +
+            "<div class='tab-content' id='noValuesContent'>" +
+              "<div class='tab-pane fade active in' id='notAvailable'>" +
+                "<div class='modal-body'>" +
+                  "<table class='table table-striped table-bordered table-condensed'>" +
+                    "<tr><th scope='row'>Not available</th><td>No workshops and/or sessions offered.</td></tr></table>";
+              "</div>" +
+            "</div>" +
+         "</div>"
       } else if (feature.properties.polyType === "Hours") { //Exhibit Hall
          var content =
            "<ul class='nav nav-tabs nav nav-justified' id='hoursOnlyContent'>" +
@@ -193,8 +450,8 @@ style: function (feature) {
             "<div class='tab-pane fade active in' id='wedWorkshops'>" +
               "<div class='modal-body'>" +
                 "<table class='table table-striped table-bordered table-condensed'>" +
-                  "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                  "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                  "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
               "</div>" +
           "</div>" +
              "<div class='tab-pane fade' id='thursSessions'>" +
@@ -323,7 +580,7 @@ style: function (feature) {
           "<div class='tab-pane fade active in' id='wedWorkshops'>" +
             "<div class='modal-body'>" +
               "<table class='table table-striped table-bordered table-condensed'>" +
-                "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr></table>" +
+                "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr></table>" +
             "</div>" +
         "</div>" +
            "<div class='tab-pane fade' id='thursSessions'>" +
@@ -346,7 +603,7 @@ style: function (feature) {
             "<div class='tab-pane fade active in' id='wedPmWorkshops'>" +
               "<div class='modal-body'>" +
                 "<table class='table table-striped table-bordered table-condensed'>" +
-                  "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
               "</div>" +
           "</div>" +
              "<div class='tab-pane fade' id='thursSessions'>" +
@@ -411,8 +668,8 @@ style: function (feature) {
            "<div class='tab-pane fade active in' id='wedWorkshops'>" +
              "<div class='modal-body'>" +
                "<table class='table table-striped table-bordered table-condensed'>" +
-                 "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                 "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                 "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                 "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
              "</div>" +
          "</div>" +
             "<div class='tab-pane fade' id='thursUserGroups'>" +
@@ -432,8 +689,8 @@ style: function (feature) {
               "<div class='tab-pane fade active in' id='wedWorkshops'>" +
                 "<div class='modal-body'>" +
                   "<table class='table table-striped table-bordered table-condensed'>" +
-                    "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                    "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>";
+                    "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                    "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>";
               "</div>" +
             "</div>" +
          "</div>"
@@ -447,8 +704,8 @@ style: function (feature) {
                    "<div class='tab-pane fade active in' id='wedWorkshops'>" +
                      "<div class='modal-body'>" +
                        "<table class='table table-striped table-bordered table-condensed'>" +
-                         "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                         "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                         "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                         "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
                      "</div>" +
                  "</div>" +
                     "<div class='tab-pane fade' id='thursSessions'>" +
@@ -497,8 +754,8 @@ style: function (feature) {
             "<div class='tab-pane fade active in' id='wedWorkshops'>" +
               "<div class='modal-body'>" +
                 "<table class='table table-striped table-bordered table-condensed'>" +
-                  "<tr><th scope='row'>9:00 am - 12:15 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
-                  "<tr><th scope='row'>1:15 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
+                  "<tr><th scope='row'>9:00 am - 12:00 pm</th><td>" + feature.properties.workshopAMnumber + ": " + feature.properties.workshopAM + " (" + feature.properties.workshopAMspeakers + ")</td></tr>" +
+                  "<tr><th scope='row'>1:30 pm - 4:30 pm</th><td>" + feature.properties.workshopPMnumber + ": " + feature.properties.workshopPM + " (" + feature.properties.workshopPMspeakers + ")</td></tr></table>" +
               "</div>" +
           "</div>" +
              "<div class='tab-pane fade' id='thursSessions'>" +
@@ -595,7 +852,7 @@ style: function (feature) {
              "<div class='tab-pane fade' id='fri'>" +
                "<div class='modal-body'>" +
                  "<table class='table table-striped table-bordered table-condensed'>" +
-                 "<tr><th scope='row'>12:15 pm</th><td>" + feature.properties.activityFri1 + "</td></tr>" +
+                 "<tr><th scope='ro[w'>12:15 pm</th><td>" + feature.properties.activityFri1 + "</td></tr>" +
                  "<tr><th scope='row'>12:30 pm - 2:30 pm</th><td>" + feature.properties.activityFri2 + "</td></tr></table>"
              "</div>" +
            "</div>" +
@@ -651,13 +908,16 @@ var funRunWalkRoute = L.geoJson(null, {
 	  },
 	  onEachFeature: function (feature, layer) {
 	    if (feature.properties) {
-	      var content = "<table class='table table-striped table-bordered table-condensed'>" +
-              	      "<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 5, 2018 @ 6:15 a.m." + "</td></tr>" +
-              	      "<tr><th scope='row'>Start/Finish Location</th><td>" + "Canal Park Lodge Parking Lot" + "</td></tr>" +
-              	      "<tr><th scope='row'>Start/Finish Address</th><td>" + "1250 Canal Park Dr, Duluth" + "</td></tr>" +
-              	      "<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will recieve a commemorative t-shirt after completion." + "</td></tr>" +
-              	      "<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows the Lakewalk, South Lake Avenue, the South Pier and Minnesota Avenue on Minnesota Point. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather! For more information, check out the <a href='docs/2018_FunRunMap.pdf' target='_blank'> official map (download) <i class='fa fa-download'></i></a> (PDF)." + "</td></tr>" + "<table>";
-
+				var content =
+					"<table class='table table-striped table-bordered table-condensed'>" +
+					"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 4, 2019 @ 6:15 a.m." + "</td></tr>" +
+					"<tr><th scope='row'>Start/Finish Location</th><td>" + "River's Edge Convention Center (1st St N/5th Ave N)" + "</td></tr>" +
+					"<tr><th scope='row'>Start/Finish Address</th><td>" + "10 4th Ave S" + "</td></tr>" +
+					"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will receive a commemorative t-shirt after completion." + "</td></tr>" +
+          "<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows 2nd Street South over the river and Riverside Drive SE to the 'turn around point', returning along Riverside Drive SE, 10th Street SE, 5th Avenue SE, and 7th Street SE before returning to Riverside Drive SE and 2nd Street South. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather!" +
+          '<br><br>View the official <a href="docs/2019_FunRunMap.pdf" download="2019_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).' +
+					"</td></tr>" + "<table>";
+		
         layer.on({
 	        click: function (e) {
 	          $("#feature-title").html("Official 5k Fun Run/Walk Route");
@@ -705,10 +965,21 @@ var hotels = L.geoJson(null, {
 
       var content = "<table class='table table-striped table-bordered table-condensed'>" +
                     "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>" +
-                    "<tr><th scope='row'>Phone Number</th><td>" + feature.properties.PHONE + "</td></tr>" +
-                    "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>" +
-                    "<tr><th scope='row'>Group Code</th><td>" + feature.properties.GROUPCODE + "</td></tr>" +
-                    "<tr><th scope='row'>Website</th><td><a href='" + feature.properties.URL + "'>Online reservations</a></td></tr>" + "</table>";
+                    "<tr><th scope='row'>Phone Number</th><td>" + feature.properties.PHONE + "</td></tr>";
+
+      if ("COST" in feature.properties && feature.properties.cost !== "") {
+        content += "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>";
+      }
+
+      if ("GROUPCODE" in feature.properties && feature.properties.GROUPCODE !== "") {
+        content += "<tr><th scope='row'>Group Code</th><td>" + feature.properties.GROUPCODE + "</td></tr>";
+      }
+
+      if ("URL" in feature.properties && feature.properties.URL !== "") {
+        content += "<tr><th scope='row'>Website</th><td><a href='" + feature.properties.URL + "'>Online reservations</a></td></tr>";
+      }
+
+      content += "</table>";
 
     layer.bindPopup("<strong>" + feature.properties.NAME + "</strong>");
 
@@ -719,6 +990,9 @@ var hotels = L.geoJson(null, {
           // Get the GeoJSON from establishments and hotels
           var establishmentFeatures = establishments.toGeoJSON();
           var hotelFeatures = hotels.toGeoJSON();
+
+          // Filter establishments down to those flagged as pub
+          establishmentFeatures.features = establishmentFeatures.features.filter(function(val) {if ("PUB" in val.properties && val.properties.PUB === 1) {return true;} return false;})
 
           // Using Turf, find the nearest establishment to hotel moused-over
           var nearestEstablishment = turf.nearest(e.target.feature, establishmentFeatures);
@@ -773,6 +1047,10 @@ var hotels = L.geoJson(null, {
 
           // Find all pubs within 1km
           var establishmentFeatures = establishments.toGeoJSON();
+
+          // Filter establishments down to those flagged as pub
+          establishmentFeatures.features = establishmentFeatures.features.filter(function(val) {if ("PUB" in val.properties && val.properties.PUB === 1) {return true;} return false;})
+
           kmBuffer = turf.buffer(e.target.feature,1,'kilometers');
           nearbyPubs = turf.within(establishmentFeatures,kmBuffer);
 
@@ -851,9 +1129,11 @@ var events = L.geoJson(null, {
       var content = "<table class='table table-striped table-bordered table-condensed'>" +
       "<tr><th scope='row'>Event Information</th><td>" + feature.properties.DETAILS + " (" + feature.properties.EVENTHOURS + ")</td></tr>" +
       "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>" +
-      "<tr><th scope='row'>Full Hours</th><td>" + feature.properties.HOURS + "</td></tr>" +
-      "<tr><th scope='row'>Discount</th><td>" + feature.properties.DISCOUNT_NOTES + "</td></tr>" +
-      "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr><table>";
+      "<tr><th scope='row'>Full Hours</th><td>" + feature.properties.HOURS + "</td></tr>";
+      if ("DISCOUNT_NOTES" in feature.properties && feature.properties.DISCOUNT_NOTES !== "") {
+        content += "<tr><th scope='row'>Discount</th><td>" + feature.properties.DISCOUNT_NOTES + "</td></tr>";
+      }
+      content += "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr><table>";
       layer.on({
         click: function (e) {
 	      $("#feature-title").html(feature.properties.NAME);
@@ -895,11 +1175,18 @@ var attractions = L.geoJson(null, {
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" +
-      "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>" +
-      "<tr><th scope='row'>Hours</th><td>" + feature.properties.HOURS + "</td></tr>" +
-      "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>" +
-   	  "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.WEBSITE + "' target='_blank'>" + feature.properties.WEBSITE + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr>" + "<table>";
+      var content = "<table class='table table-striped table-bordered table-condensed'>";
+      if ("ADDRESS" in feature.properties && feature.properties.ADDRESS !== "") {
+        content += "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>";
+      }
+      if ("HOURS" in feature.properties && feature.properties.HOURS !== "") {
+        content += "<tr><th scope='row'>Hours</th><td>" + feature.properties.HOURS + "</td></tr>";
+      }
+      if ("COST" in feature.properties && feature.properties.COST !== "") {
+        content += "<tr><th scope='row'>Cost</th><td>" + feature.properties.COST + "</td></tr>";
+      }
+      content += "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.WEBSITE + "' target='_blank'>" + feature.properties.WEBSITE + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr>";
+      content += "</table>";
       layer.on({
         click: function (e) {
 	      $("#feature-title").html(feature.properties.NAME);
@@ -945,8 +1232,12 @@ var establishments = L.geoJson(null, {
       var content = "<table class='table table-striped table-bordered table-condensed'>" +
       "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>" +
       "<tr><th scope='row'>Hours</th><td>" + feature.properties.HOURS + "</td></tr>" +
-      "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr>" +
-      "<tr><th scope='row'>Discount</th><td>" + feature.properties.DISCOUNT_NOTES + "</td></tr>" + "<table>";
+      "<tr><th scope='row'>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + " (new window) <i class='fa fa-external-link-square'></i></a></td></tr>";
+      if ("DISCOUNT_NOTES" in feature.properties && feature.properties.DISCOUNT_NOTES !== "") {
+        content += "<tr><th scope='row'>Discount</th><td>" + feature.properties.DISCOUNT_NOTES + "</td></tr>";
+      }
+
+      content += "</table>";
       layer.on({
         click: function (e) {
           $("#feature-title").html(feature.properties.NAME);
@@ -984,6 +1275,9 @@ if (conferenceCity == "duluth") {
 } else if (conferenceCity == "bemidji") {
   var southwestMax = L.latLng(47.3243, -95.0811), northeastMax = L.latLng(47.6038, -94.6115), //Map bounds
       initialLat = 47.463423, initialLng = -94.853554; //On-load map center
+} else if (conferenceCity == "stcloud") {
+  var southwestMax = L.latLng(45.1878, -94.9191), northeastMax = L.latLng(45.9826, -93.4387), //Map bounds
+      initialLat = 45.561761, initialLng = -94.1567426; //On-load map center
 } else {
   var southwestMax = L.latLng(44.8872, -93.2077), northeastMax = L.latLng(44.9920, -93.0043), //Map bounds
       initialLat = 44.971159, initialLng = -93.203874; //On-load map center
@@ -1124,14 +1418,33 @@ if (conferenceCity == "duluth") {
   		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #EB902E;'></i><i class='fa fa-cutlery fa-stack-1x' style='color: white;'></i></span>&nbsp;Establishments": establishmentsLayer
     }
   };
+} else if (conferenceCity == "stcloud") {
+  var groupedOverlays = {
+    "RECC": {
+  	   "&nbsp;1st Floor": groundFloor,
+  	   "&nbsp;2nd Floor": secondFloor//,
+       //"&nbsp;3rd Floor (Harbor Ballroom)": deccThirdFloor
+    },
+    "Places of Interest": {
+			  "&nbsp;5k Fun Run/Walk Route": funRunWalkRoute,
+  		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #406573;'></i><i class='fa fa-bed fa-stack-1x' style='color: white;'></i></span>&nbsp;Hotels": hotelsLayer,
+        "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #B74448;'></i><i class='fa fa-star fa-stack-1x' style='color: white;'></i></span>&nbsp;Conference Events": eventsLayer,
+  		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #72AF26;'></i><i class='fa fa-binoculars fa-stack-1x' style='color: white;'></i></span>&nbsp;Attractions": attractionsLayer,
+  		  "<span class='fa-stack fa-lg'><i class='fa fa-square fa-stack-2x' style='color: #EB902E;'></i><i class='fa fa-cutlery fa-stack-1x' style='color: white;'></i></span>&nbsp;Establishments": establishmentsLayer
+    }
+  };
 }
 
 if (conferenceCity == "duluth") {
   var options = { exclusiveGroups: ["DECC"],
   		collapsed: isCollapsed
   };
-} else if (conferenceCity = "bemidji") {
+} else if (conferenceCity == "bemidji") {
   var options = { exclusiveGroups: ["Sanford Center"],
+  		collapsed: isCollapsed
+  };
+} else if (conferenceCity == "stcloud") {
+  var options = { exclusiveGroups: ["RECC"],
   		collapsed: isCollapsed
   };
 } else {
@@ -1325,16 +1638,18 @@ $('#featureModal').on('hidden.bs.modal', function () {
 //AlmostOver: When the user is almost clicking on the polyline, show the attribute table
 map.on('almost:click', function (e) {
   e.layer.setStyle({weight: 3, color: "#00FFFF"});
-      var content =
-      "<table class='table table-striped table-bordered table-condensed'>" +
-      "<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 5, 2018 @ 6:15 a.m." + "</td></tr>" +
-      "<tr><th scope='row'>Start/Finish Location</th><td>" + "Canal Park Lodge Parking Lot" + "</td></tr>" +
-      "<tr><th scope='row'>Start/Finish Address</th><td>" + "1250 Canal Park Dr, Duluth" + "</td></tr>" +
-      "<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will recieve a commemorative t-shirt after completion." + "</td></tr>" +
-      "<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows the Lakewalk, South Lake Avenue, the South Pier and Minnesota Avenue on Minnesota Point. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather! For more information, check out the <a href='docs/2018_FunRunMap.pdf' target='_blank'> official map (download) <i class='fa fa-download'></i></a> (PDF)." + "</td></tr>" + "<table>";
-          $("#feature-title").html("Official 5k Fun Run/Walk Route");
-          $("#feature-info").html(content);
-          $("#featureModal").modal("show");
+	var content =
+		"<table class='table table-striped table-bordered table-condensed'>" +
+		"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 4, 2019 @ 6:15 a.m." + "</td></tr>" +
+		"<tr><th scope='row'>Start/Finish Location</th><td>" + "River's Edge Convention Center (1st St N/5th Ave N)" + "</td></tr>" +
+		"<tr><th scope='row'>Start/Finish Address</th><td>" + "10 4th Ave S" + "</td></tr>" +
+		"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will receive a commemorative t-shirt after completion." + "</td></tr>" +
+		"<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows 2nd Street South over the river and Riverside Drive SE to the 'turn around point', returning along Riverside Drive SE, 10th Street SE, 5th Avenue SE, and 7th Street SE before returning to Riverside Drive SE and 2nd Street South. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather!" +
+    '<br><br>View the official <a href="docs/2019_FunRunMap.pdf" download="2019_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).' +
+    "</td></tr>" + "<table>";
+	$("#feature-title").html("Official 5k Fun Run/Walk Route");
+	$("#feature-info").html(content);
+	$("#featureModal").modal("show");
 });
 
 // Add labels

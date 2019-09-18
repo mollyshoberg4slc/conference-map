@@ -6,10 +6,10 @@
     <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="2018 Minnesota GIS/LIS Conference Map">
-    <meta name="keywords" content="mngislis, conference map, minnesota gis, duluth, 2018">
-    <meta name="author" content="Kitty Hurley">
-    <title>2018 MN GIS/LIS Conference Map: #MNGISLIS</title>
+    <meta name="description" content="2019 Minnesota GIS/LIS Conference Map">
+    <meta name="keywords" content="mngislis, conference map, minnesota gis, st. cloud, 2019">
+    <meta name="author" content="MN GIS/LIS Consortium">
+    <title>2019 MN GIS/LIS Conference Map: #MNGISLIS2019</title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -27,14 +27,13 @@
     <link rel="icon" sizes="196x196" href="assets/img/favicon-196.png">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146907532-1"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-      ga('create', 'UA-64039184-1', 'auto');
-      ga('send', 'pageview');
+      gtag('config', 'UA-146907532-1');
     </script>
 
   </head>
@@ -49,7 +48,7 @@
             <a class="navbar-icon pull-right visible-xs" id="nav-btn"><i class="fa fa-bars fa-lg white" aria-hidden="true"></i></a>
             <a class="navbar-icon pull-right visible-xs" id="sidebar-toggle-btn"><i class="fa fa-search fa-lg white" aria-hidden="true"></i></a>
           </div>
-          <a class="navbar-brand" href="https://www.mngislis.org/page/Conference_2018"><h1>#MNGISLIS</h1></a>
+          <a class="navbar-brand" href="https://www.mngislis.org/page/annual-conference"><h1>#MNGISLIS</h1></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav text-center">
@@ -104,13 +103,13 @@
                 <thead class="hidden">
                   <tr>
                     <th scope="col">Icon</th>
-                  <tr>
+                  </tr>
                   <tr>
                     <th scope="col">Name</th>
-                  <tr>
+                  </tr>
                   <tr>
                     <th scope="col">Chevron</th>
-                  <tr>
+                  </tr>
                 </thead>
                 <tbody class="list"></tbody>
               </table>
@@ -133,7 +132,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h2 class="modal-title">2018 Minnesota GIS/LIS Conference Map</h2>
+            <h2 class="modal-title">2019 Minnesota GIS/LIS Conference Map</h2>
           </div>
           <div class="modal-body">
             <ul class="nav nav-tabs nav nav-justified" id="aboutTabs">
@@ -203,7 +202,7 @@
     <script src="assets/js/leaflet.almostover.js"></script>
     <script src="//www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=GjVvLMyTKIykuYPZiPEIld4ohPRrZaDg"></script>
     <script src="//api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js"></script>
-    <script src="assets/js/app.js" id="conference-city" city="duluth"></script>
+    <script src="assets/js/app.js" id="conference-city" city="stcloud"></script>
     <script src="assets/js/content.js"></script>
 
   </body>
