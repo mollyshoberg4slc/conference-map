@@ -1,7 +1,7 @@
 MN GIS/LIS Conference Map  
 ==============
 
-Contribute to the official [28th Annual Conference Map](https://geospatialem.github.io/conference-map) held in Duluth, Minnesota this October!  
+Contribute to the official [29th Annual Conference Map](https://mn-gis-lis.github.io/conference-map/) held in St. Cloud, Minnesota this October!
 
 The map includes:  
 * The conference host site  
@@ -42,6 +42,11 @@ To change the view of cities within the webpage, edit the second to last script 
 <script src="assets/js/app.js" id="conference-city" city="duluth"></script>  
 ```  
 
+#### St. Cloud
+```javascript
+<script src="assets/js/app.js" id="conference-city" city="stcloud"></script>
+```
+
 ### Related city-based files  
 In addition to the data folder, content and functionality will be generated based on the selected city within the `assets/js/app.js` and `assets/js/content.js` files.
 
@@ -56,6 +61,8 @@ if (conferenceCity == "bemidji") {
   //Bemidji-specific javascript content
 } else if (conferenceCity == "duluth") {
   //Duluth-specific javascript content
+} else if (conferenceCity == "stcloud") {
+  //St.Cloud-specific javascript content
 }
 ```  
 
