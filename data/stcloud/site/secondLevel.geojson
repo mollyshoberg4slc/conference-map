@@ -11,11 +11,11 @@
         "workshopPMnumber": "WK017",
         "workshopPM": "GIS Programming with R",
         "workshopPMspeakers": "Matt Haffner",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 2: Usability/Accessibility",
+        "thursdaySession2": "Session 14: ArcGIS Online",
+        "thursdaySession3": "Session 20: Remote Sensing",
+        "fridaySession1": "Session 28: Parcel/Survey",
+        "fridaySession2": "Session 34: Emergency Things"
       },
       "geometry": {
         "type": "Polygon",
@@ -55,11 +55,11 @@
         "workshopPMnumber": "WK019",
         "workshopPM": "An open-source approach for land cover mapping using object-based image analysis",
         "workshopPMspeakers": "Keith Pelletier & Joseph Knight",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 8: Drones/UAS/UAV",
+        "thursdaySession2": "Session 12: Imagery/LiDAR",
+        "thursdaySession3": "Session 21: Collaboration",
+        "fridaySession1": "Session 29: Natural Resources",
+        "fridaySession2": "Session 33: Programming"
       },
       "geometry": {
         "type": "Polygon",
@@ -99,11 +99,11 @@
         "workshopPMnumber": "WK016",
         "workshopPM": "ArcGIS Server: Administration and Advanced Topics",
         "workshopPMspeakers": "Justin Hansen",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 2: Usability/Accessibility",
+        "thursdaySession2": "Session 14: ArcGIS Online",
+        "thursdaySession3": "Session 20: Remote Sensing",
+        "fridaySession1": "Session 28: Parcel/Survey",
+        "fridaySession2": "Session 34: Emergency Things"
       },
       "geometry": {
         "type": "Polygon",
@@ -143,11 +143,11 @@
         "workshopPMnumber": "WK018",
         "workshopPM": "Web AppBuilder: Knowing Your Options",
         "workshopPMspeakers": "Chad Nunemacher & Paul Hedlund",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 8: Drones/UAS/UAV",
+        "thursdaySession2": "Session 12: Imagery/LiDAR",
+        "thursdaySession3": "Session 21: Collaboration",
+        "fridaySession1": "Session 29: Natural Resources",
+        "fridaySession2": "Session 33: Programming"
       },
       "geometry": {
         "type": "Polygon",
@@ -187,11 +187,11 @@
         "workshopPMnumber": "WK015",
         "workshopPM": "UAS for GIS Professionals",
         "workshopPMspeakers": "Shelly Carroll",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 4: Enterprise GIS",
+        "thursdaySession2": "Session 10: Business Solutions",
+        "thursdaySession3": "Session 24: Utilities",
+        "fridaySession1": "Session 30: ArcGIS Pro Panel",
+        "fridaySession2": "Session 36: Grab Bag"
       },
       "geometry": {
         "type": "Polygon",
@@ -231,11 +231,11 @@
         "workshopPMnumber": "WK014",
         "workshopPM": "Telling your story with Esri Story Maps",
         "workshopPMspeakers": "Joseph Kerski",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 4: Enterprise GIS",
+        "thursdaySession2": "Session 10: Business Solutions",
+        "thursdaySession3": "Session 24: Utilities",
+        "fridaySession1": "Session 30: ArcGIS Pro Panel",
+        "fridaySession2": "Session 36: Grab Bag"
       },
       "geometry": {
         "type": "Polygon",
@@ -370,10 +370,10 @@
         "workshopPMnumber": "",
         "workshopPM": "",
         "workshopPMspeakers": "",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
+        "thursdaySession1": "Session 1: Data Management",
+        "thursdaySession2": "Session 9: Expanding the Vocabulary",
+        "thursdaySession3": "Session 17: Data Governance Panel",
+        "fridaySession1": "Session 25: Next Gen 911 Panel",
         "fridaySession2": ""
       },
       "geometry": {

@@ -121,11 +121,11 @@
         "workshopPMnumber": "WK013",
         "workshopPM": "Editing in ArcGIS Pro (Non-Parcel Fabric)",
         "workshopPMspeakers": "Frank Conkling",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 3: Lightning",
+        "thursdaySession2": "Session 11: Lightning 2",
+        "thursdaySession3": "Session 19: Lightning 3",
+        "fridaySession1": "Session 27: GAC (Data Standards)",
+        "fridaySession2": "Session 32: Data Collection"
       },
       "geometry": {
         "type": "Polygon",
@@ -163,11 +163,11 @@
         "workshopPMnumber": "WK020",
         "workshopPM": "Creating Dashboards with Configurable Apps",
         "workshopPMspeakers": "Gustavo Castro",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 5: Story Maps",
+        "thursdaySession2": "Session 13: Enterprise GIS 2",
+        "thursdaySession3": "Session 22: GPS/GNSS",
+        "fridaySession1": "Session 31: CAD",
+        "fridaySession2": "Session 39: Remote Sensing Panel"
       },
       "geometry": {
         "type": "Polygon",
@@ -207,11 +207,11 @@
         "workshopPMnumber": "WK004",
         "workshopPM": "GIS in the County Emergency Operations Center",
         "workshopPMspeakers": "Randy Knippel",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 5: Story Maps",
+        "thursdaySession2": "Session 13: Enterprise GIS 2",
+        "thursdaySession3": "Session 22: GPS/GNSS",
+        "fridaySession1": "Session 31: CAD",
+        "fridaySession2": "Session 39: Remote Sensing Panel"
       },
       "geometry": {
         "type": "Polygon",
@@ -251,11 +251,11 @@
         "workshopPMnumber": "WK012",
         "workshopPM": "Intermediate Collector",
         "workshopPMspeakers": "Chris Pouliot & Mike Tronrud",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 6: Education",
+        "thursdaySession2": "Session 16: Graduate Student Competition",
+        "thursdaySession3": "Session 18: LiDAR Panel",
+        "fridaySession1": "Session 39: Remote Sensing Panel",
+        "fridaySession2": "Session 38: Agribusiness Research Project"
       },
       "geometry": {
         "type": "Polygon",
@@ -295,11 +295,11 @@
         "workshopPMnumber": "WK011",
         "workshopPM": "cARTography 101",
         "workshopPMspeakers": "Jacqueline Kovarik & Rachel Koch",
-        "thursdaySession1": "",
-        "thursdaySession2": "",
-        "thursdaySession3": "",
-        "fridaySession1": "",
-        "fridaySession2": ""
+        "thursdaySession1": "Session 7: Undegrad Student Competion 1",
+        "thursdaySession2": "Session 15: Undergrad Student Competition 2",
+        "thursdaySession3": "Session 23: GIS Career Panel",
+        "fridaySession1": "Session 26: GIS & Gender Panel",
+        "fridaySession2": "Session 37: Natural Resources 2"
       },
       "geometry": {
         "type": "Polygon",
