@@ -292,11 +292,11 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">8:00 am - 5:00 pm</th><td>Registration</td><td>Registration Desk</td></tr>';
+    '<tr><th scope="row">8:00 am - 5:00 pm</th><td>Registration</td><td>RECC Lobby</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">9:00 am - 10:30 am</th><td>Morning Workshops</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">10:30 am - 10:45 am</th><td>Refreshment Break</td><td></td></tr>';
+    '<tr><th scope="row">10:30 am - 10:45 am</th><td>Refreshment Break</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">10:45 am - 12:00 pm</th><td>Morning Workshops (continued)</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
@@ -306,7 +306,7 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="row">1:30 pm - 3:00 pm</th><td>Meet Me at the Corner</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">3:00 pm - 3:15 am</th><td>Refreshment Break</td><td></td></tr>';
+    '<tr><th scope="row">3:00 pm - 3:15 am</th><td>Refreshment Break</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">3:15 pm - 4:30 pm</th><td>Afternoon Workshops (continued)</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
@@ -325,7 +325,7 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">7:30 am - 5:00 pm</th><td>Registration</td><td>Registration Desk</td></tr>';
+    '<tr><th scope="row">7:30 am - 5:00 pm</th><td>Registration</td><td>RECC Lobby</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">7:30 am - 8:00 am</th><td>Conference Mentor Meet and Greet</td><td>Geolounge</td></tr>';
   scheduleModalDialogText +=
@@ -333,9 +333,9 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="row">8:30 am - 10:00 am</th><td>Opening Keynote Session: Joseph Kerski</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Morning Break</td><td></td></tr>';
+    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Morning Break: Exhibit Hall, Geolounge, Poster Gallery and Web-Maps Open</td><td></td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Speed Networking</td><td>Terry Haws C</td></tr>';
+    '<tr><th scope="row">10:00 am - 10:30 am</th><td>Speed Networking</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">10:30 am - 12:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
@@ -347,11 +347,17 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="row">3:30 pm - 5:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
+    '<tr><th scope="row">3:30 pm - 5:00 pm</th><td>Last Call: Poster Gallery; People\'s Choice Vote </td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">5:00 pm - 5:30 pm</th><td>Poster Judging</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
     '<tr><th scope="row">5:00 pm - 7:00 pm</th><td>Exhibitor Showcase</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">6:15 pm - 6:45 pm</th><td>Exhibitor and GIS/LIS Raffle (must be present to win)</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">7:15 pm - 10:00 pm</th><td>Thursday Night Social Event</td><td>Red Carpet Nightclub</td></tr>';
+    '<tr><th scope="row">6:30 pm</th><td>PM Scholarship and Poster Competition Results</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">7:15 pm - 9:30 pm</th><td>Thursday Night Social Event</td><td>Red Carpet Nightclub</td></tr>';
   scheduleModalDialogText += "</table>";
   scheduleModalDialogText += "</div>";
 
@@ -362,11 +368,11 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Location</th></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">6:15 am - 7:15 am</th><td>5k Fun Run/Walk</td><td></td></tr>';
+    '<tr><th scope="row">6:15 am - 7:15 am</th><td>5k Fun Run/Walk</td><td>Meet at 10 4th Ave South</td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">7:30 am - 10:00 am</th><td>Registration</td><td>Registration Desk</td></tr>';
+    '<tr><th scope="row">7:30 am - 10:00 am</th><td>Registration</td><td>RECC Lobby</td></tr>';
   scheduleModalDialogText +=
-    '<tr><th scope="row">8:00 am - 12:00 pm</th><td>Exhibit Hall &amp; Geolounge Open</td><td>Exhibit Hall/Geolounge</td></tr>';
+    '<tr><th scope="row">8:00 am - 12:00 pm</th><td>Exhibit Hall Open</td><td>Exhibit Hall</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">8:30 am - 10:00 am</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
@@ -375,6 +381,9 @@ if (conferenceCity == "bemidji") {
     '<tr><th scope="row">10:30 pm - 12:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">12:00 pm - 1:30 pm</th><td>Lunch &amp; Closing Keynote: Kenny Blumenfeld</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">1:30 pm</th><td>MN GIS/LIS Annual Business Meeting</td><td>Terry Haws Center C</td></tr>';
+
   scheduleModalDialogText += "</table>";
   scheduleModalDialogText += "</div>";
 } else {
