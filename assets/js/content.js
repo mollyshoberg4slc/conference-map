@@ -296,11 +296,15 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="row">9:00 am - 10:30 am</th><td>Morning Workshops</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
+    '<tr><th scope="row">9:00 am - 12:00 am</th><td>Esri Hands On Learning Lab</td><td>Board Room C</td></tr>';
+  scheduleModalDialogText +=
     '<tr><th scope="row">10:30 am - 10:45 am</th><td>Refreshment Break</td><td>Terry Haws Center C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">10:45 am - 12:00 pm</th><td>Morning Workshops (continued)</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">12:00 pm - 1:30 pm</th><td>Lunch &amp; Keynote: Brianne Wegter &amp; Melissa Gebhardt</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">1:00 pm - 5:00 pm</th><td>Esri Hands On Learning Lab</td><td>Board Room C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">1:30 pm - 3:00 pm</th><td>Afternoon Workshops</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
@@ -339,7 +343,11 @@ if (conferenceCity == "bemidji") {
   scheduleModalDialogText +=
     '<tr><th scope="row">10:30 am - 12:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
+    '<tr><th scope="row">10:30 am - 12:00 am</th><td>Esri Hands On Learning Lab</td><td>Board Room C</td></tr>';
+  scheduleModalDialogText +=
     '<tr><th scope="row">12:00 pm - 1:30 pm</th><td>Awards Luncheon</td><td>Terry Haws Center C</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">1:00 pm - 5:00 pm</th><td>Esri Hands On Learning Lab</td><td>Board Room C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">1:30 pm - 3:00 pm</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
   scheduleModalDialogText +=
@@ -375,6 +383,8 @@ if (conferenceCity == "bemidji") {
     '<tr><th scope="row">8:00 am - 12:00 pm</th><td>Exhibit Hall Open</td><td>Exhibit Hall</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">8:30 am - 10:00 am</th><td>Concurrent Sessions</td><td>RECC Rooms</td></tr>';
+  scheduleModalDialogText +=
+    '<tr><th scope="row">8:30 am - 12:00 pm</th><td>Esri Hands On Learning Lab</td><td>Board Room C</td></tr>';
   scheduleModalDialogText +=
     '<tr><th scope="row">10:00 am - 10:30 am</th><td>Morning Break</td><td></td></tr>';
   scheduleModalDialogText +=
