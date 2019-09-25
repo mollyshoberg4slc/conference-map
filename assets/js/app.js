@@ -31,7 +31,7 @@ $("#full-extent-btn").click(function() {
   } else if (conferenceCity == "bemidji") {
     map.fitBounds([[47.4509021555, -94.9586105347],[47.5572987869, -94.7890090942]]);
   } else if (conferenceCity == "stcloud") {
-    map.fitBounds([[45.57304680685471, -94.13176059722902], [45.54819764153181, -94.17802333831789]])
+    map.fitBounds([[45.6008, -94.0967], [45.5095, -94.2817]])
   } else {
     //Do nothing
   }
