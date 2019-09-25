@@ -82,7 +82,7 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Board Room C"
+        "NAME": "Board Room C (Esri HOLL)"
       },
       "geometry": {
         "type": "Point",
