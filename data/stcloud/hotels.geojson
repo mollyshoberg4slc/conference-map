@@ -7,6 +7,7 @@
       "properties": {
         "NAME": "Best Western Kelly Inn",
         "ADDRESS": "100 4th Avenue South",
+        "LOCATIONINFO": "Located downtown St. Cloud connected to River’s Edge Convention Center. Includes pool and Green Mill Restaurant onsite.",
         "PHONE": "320-253-0606",
         "RESERVATIONS": "CALL TO BOOK",
         "URL": "http://book.bestwestern.com/bestwestern/US/MN/Saint-Cloud-hotels/BEST-WESTERN-PLUS-Kelly-Inn/Hotel-Overview.do?propertyCode=24113&cm_mmc=BL-_-Google-_-GMB-_-24113"
@@ -25,6 +26,7 @@
       "properties": {
         "NAME": "Courtyard by Marriott",
         "ADDRESS": "404 West Germain Street",
+        "LOCATIONINFO": "Located downtown St. Cloud connected to River’s Edge Convention Center. Includes pool and Bistro/Starbucks.",
         "PHONE": "320-654-1661",
         "RESERVATIONS": "BOOK ONLINE",
         "URL": "https://www.marriott.com/event-reservations/reservation-link.mi?id=1610050204377&key=GRP&app=resvlink"
@@ -43,6 +45,7 @@
       "properties": {
         "NAME": "Grand Stay Residential Suites",
         "ADDRESS": "213 Sixth Avenue South",
+        "LOCATIONINFO": "Located downtown St. Cloud. Suites available with a fully equipped kitchen. Includes pool and complimentary Grand Start Breakfast.",
         "PHONE": "320-251-5400",
         "RESERVATIONS": "CALL TO BOOK",
         "URL": "http://www.grandstayhospitality.com/find-a-hotel/locations/st-cloud/overview"
@@ -61,6 +64,7 @@
       "properties": {
         "NAME": "Country Inn & Suites",
         "ADDRESS": "120 7th Avenue SE",
+        "LOCATIONINFO": "Located near downtown St. Cloud. Includes pool and complimentary Hot Be Our Guest Breakfast.",
         "PHONE": "320-252-8282",
         "RESERVATIONS": "CALL TO BOOK",
         "URL": "http://hotels.countryinns.com/mn/saintcloud/hotels_saint-cloud_mn_mnstclde.html"
@@ -79,6 +83,7 @@
       "properties": {
         "NAME": "Holiday Inn & Suites",
         "ADDRESS": "75 S 37th Avenue",
+        "LOCATIONINFO": "Located at the intersection of HWY 15 & HWY 23. Includes pools, arcade area, basketball/volleyball courts, onsite Legends Bar & Grill.",
         "PHONE": "320-253-9000",
         "RESERVATIONS": "BOOK ONLINE",
         "URL": "https://www.holidayinn.com/redirect?path=hd-area&brandCode=HI&localeCode=en&regionCode=1&hotelCode=stcmn&_PMID=99801505&GPC=gis&cn=no&viewfullsite=true"

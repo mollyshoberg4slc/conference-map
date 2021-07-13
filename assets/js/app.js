@@ -964,6 +964,7 @@ var hotels = L.geoJson(null, {
 
       var content = "<table class='table table-striped table-bordered table-condensed'>" +
                     "<tr><th scope='row'>Address</th><td>" + feature.properties.ADDRESS + "</td></tr>" +
+                    "<tr><th scope='row'>Location Info</th><td>" + feature.properties.LOCATIONINFO + "</td></tr>" +
                     "<tr><th scope='row'>Phone Number</th><td>" + feature.properties.PHONE + "</td></tr>";
 
       if ("COST" in feature.properties && feature.properties.cost !== "") {
