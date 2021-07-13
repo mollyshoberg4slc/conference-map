@@ -8,7 +8,8 @@
         "NAME": "Best Western Kelly Inn",
         "ADDRESS": "100 4th Avenue South",
         "PHONE": "320-253-0606",
-        "URL": "https://www.bestwestern.com/en_US/book/hotel-rooms.24113.html?groupId=D68BE1E4"
+        "RESERVATIONS": "CALL TO BOOK",
+        "URL": "http://book.bestwestern.com/bestwestern/US/MN/Saint-Cloud-hotels/BEST-WESTERN-PLUS-Kelly-Inn/Hotel-Overview.do?propertyCode=24113&cm_mmc=BL-_-Google-_-GMB-_-24113"
       },
       "geometry": {
         "type": "Point",
@@ -24,7 +25,9 @@
       "properties": {
         "NAME": "Courtyard by Marriott",
         "ADDRESS": "404 West Germain Street",
-        "PHONE": "320-654-1661"
+        "PHONE": "320-654-1661",
+        "RESERVATIONS": "BOOK ONLINE",
+        "URL": "https://www.marriott.com/event-reservations/reservation-link.mi?id=1610050204377&key=GRP&app=resvlink"
       },
       "geometry": {
         "type": "Point",
@@ -41,7 +44,8 @@
         "NAME": "GrandStay Residential Suites",
         "ADDRESS": "213 Sixth Avenue South",
         "PHONE": "320-251-5400",
-        "URL": "https://www.bestwestern.com/en_US/book/hotel-rooms.24113.html?groupId=D68BE1E4"
+        "RESERVATIONS": "CALL TO BOOK",
+        "URL": "http://www.grandstayhospitality.com/find-a-hotel/locations/st-cloud/overview"
       },
       "geometry": {
         "type": "Point",
@@ -55,33 +59,17 @@
       "type": "Feature",
       "id": 3,
       "properties": {
-        "NAME": "Hampton Inn & Suites",
-        "ADDRESS": "145 37th Avenue North",
-        "PHONE": "320-252-4448",
-        "URL": "https://hamptoninn3.hilton.com/en/hotels/minnesota/hampton-inn-and-suites-st-cloud-mn-STCLDHX/index.html"
+        "NAME": "Country Inn & Suites",
+        "ADDRESS": "120 7th Avenue SE",
+        "PHONE": "320-252-8282",
+        "RESERVATIONS": "CALL TO BOOK",
+        "URL": "http://hotels.countryinns.com/mn/saintcloud/hotels_saint-cloud_mn_mnstclde.html"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.20431971549988,
-          45.55649944667429
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "properties": {
-        "NAME": "Homewood Residential Suites",
-        "ADDRESS": "115 37th Avenue North",
-        "PHONE": "320-252-5900",
-        "URL": "https://homewoodsuites3.hilton.com/en/hotels/minnesota/homewood-suites-by-hilton-st-cloud-STCMNHW/index.html"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.204341173172,
-          45.555740690066415
+          -94.14139487684336,
+          45.56731309370255
         ]
       }
     },
@@ -89,16 +77,17 @@
       "type": "Feature",
       "id": 5,
       "properties": {
-        "NAME": "Hilton Garden Inn St. Cloud",
-        "ADDRESS": "550 Division Street (Waite Park, MN)",
-        "PHONE": "320-640-7990",
-        "URL": "https://hiltongardeninn3.hilton.com/en/hotels/minnesota/hilton-garden-inn-st-cloud-STCOUGI/index.html"
+        "NAME": "Holiday Inn & Suites",
+        "ADDRESS": "75 S 37th Avenue",
+        "PHONE": "320-253-9000",
+        "RESERVATIONS": "BOOK ONLINE",
+        "URL": "https://www.holidayinn.com/redirect?path=hd-area&brandCode=HI&localeCode=en&regionCode=1&hotelCode=stcmn&_PMID=99801505&GPC=gis&cn=no&viewfullsite=true"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.22359406948088,
-          45.55321643593488
+          -94.20411008467619,
+          45.55134374505919
         ]
       }
     }
