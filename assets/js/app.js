@@ -980,7 +980,7 @@ var hotels = L.geoJson(null, {
       }
 
       if ("URL" in feature.properties && feature.properties.URL !== "") {
-        content += "<tr><th scope='row'>Website</th><td><a href='" + feature.properties.URL + ">feature.properties.NAME</a></td></tr>";
+        content += "<tr><th scope='row'>Website</th><td><a href='" + feature.properties.URL + "</td></tr>";
       }
 
       content += "</table>";
