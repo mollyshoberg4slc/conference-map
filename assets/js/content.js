@@ -73,7 +73,7 @@ if (conferenceCity == "bemidji") {
   //aboutConferenceText += "<li class=\"list-group-item\">Check out our <a href=\"\/\/c.ymcdn.com\/sites\/www.mngislis.org\/resource\/resmgr\/conf2016\/mngislis_preliminary_program.pdf\" target=\"_blank\">preliminary program! (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a> <\/li>";
 } else if (conferenceCity == "stcloud") {
   aboutConferenceText +=
-    '<li class="list-group-item">View the <a href="https://www.mngislis.org/page/2021-rates" target="_blank">2021 conference rates (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>';
+    '<li class="list-group-item">View the <a href="https://www.mngislis.org/page/2021confrates" target="_blank">2021 conference rates (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>';
   /* TODO: Open registration */
   aboutConferenceText +=
     '<!--<li class="list-group-item">Ready to go? <a href="https://www.mngislis.org/event/2021-conference-reg" target="_blank">Register for the annual conference! (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a> </li>-->';
