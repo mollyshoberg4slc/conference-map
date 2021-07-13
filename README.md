@@ -1,7 +1,7 @@
 MN GIS/LIS Conference Map  
 ==============
 
-Contribute to the official [29th Annual Conference Map](https://mn-gis-lis.github.io/conference-map/) held in St. Cloud, Minnesota this October!
+Contribute to the official [31st Annual Conference Map](https://mn-gis-lis.github.io/conference-map/) held in St. Cloud, Minnesota this October!
 
 The map includes:  
 * The conference host site  

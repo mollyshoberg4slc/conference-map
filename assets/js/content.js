@@ -39,18 +39,18 @@ var aboutConferenceText = "";
 
 //TODO: Change annually
 aboutConferenceText +=
-  "<p>The official conference map for the 29th Annual Minnesota GIS/LIS Conference held Wednesday, October 2nd through Friday, October 4th, 2019 in St. Cloud.</p>";
+  "<p>The official conference map for the 31st Annual Minnesota GIS/LIS Conference held Wednesday, October 13th through Friday, October 15th, 2021 in St. Cloud.</p>";
 aboutConferenceText +=
   "<p>What is the conference schedule? What workshops and sessions are offered? Where are the rooms? Where can one grab dinner or a #geobeer? What other great things can you do while visiting? All of these questions, and more can be answered in one place!</p>";
 aboutConferenceText +=
-  '<p>For more information, please visit the official <a href="https://www.mngislis.org/page/annual-conference" target="_blank"> Minnesota GIS/LIS Conference website (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a>.</p>';
+  '<p>For more information, please visit the official <a href="https://www.mngislis.org/page/2021_annualconference" target="_blank"> Minnesota GIS/LIS Conference website (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a>.</p>';
 
 aboutConferenceText += '<div class="panel panel-primary">';
 aboutConferenceText +=
   '<div class="panel-heading">Additional Information:</div>';
 aboutConferenceText += '<ul class="list-group">';
 aboutConferenceText +=
-  '<li class="list-group-item">Join the conversation on social media! We\'ll be tweeting live at <a href="//twitter.com/mngislis">@MNGISLIS</a> using <a href="//twitter.com/hashtag/mngislis2019?f=tweets&vertical=default">#mngislis2019</a>.</li>';
+  '<li class="list-group-item">Join the conversation on social media! We\'ll be tweeting live at <a href="//twitter.com/mngislis">@MNGISLIS</a> using <a href="//twitter.com/hashtag/mngislis2021?f=tweets&vertical=default">#mngislis2021</a>.</li>';
 
 if (conferenceCity == "bemidji") {
   aboutConferenceText +=
@@ -73,12 +73,12 @@ if (conferenceCity == "bemidji") {
   //aboutConferenceText += "<li class=\"list-group-item\">Check out our <a href=\"\/\/c.ymcdn.com\/sites\/www.mngislis.org\/resource\/resmgr\/conf2016\/mngislis_preliminary_program.pdf\" target=\"_blank\">preliminary program! (new window) <i class=\"fa fa-external-link-square\" aria-hidden=\"true\"><\/i><\/a> <\/li>";
 } else if (conferenceCity == "stcloud") {
   aboutConferenceText +=
-    '<li class="list-group-item">View the <a href="https://www.mngislis.org/page/2019-rates" target="_blank">2019 conference rates (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>';
+    '<li class="list-group-item">View the <a href="https://www.mngislis.org/page/2021-rates" target="_blank">2021 conference rates (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>';
   /* TODO: Open registration */
   aboutConferenceText +=
-    '<!--<li class="list-group-item">Ready to go? <a href="https://www.mngislis.org/event/2019-conference-reg" target="_blank">Register for the annual conference! (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a> </li>-->';
+    '<!--<li class="list-group-item">Ready to go? <a href="https://www.mngislis.org/event/2021-conference-reg" target="_blank">Register for the annual conference! (new window) <i class="fa fa-external-link-square" aria-hidden="true"></i></a> </li>-->';
   aboutConferenceText +=
-    '<li class="list-group-item">View the official <a href="docs/2019_FunRunMap.pdf" download="2018_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).</li>';
+    '<li class="list-group-item">View the official <a href="docs/2021_FunRunMap.pdf" download="2021_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).</li>';
 
   // aboutConferenceText +=
   //   '<li class="list-group-item">View the official <a href="docs/2018_FunRunMap.pdf" download="2018_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).</li>';
@@ -104,13 +104,13 @@ var scheduleModalDialogText = "";
 scheduleModalDialogText +=
   '<ul class="nav nav-tabs nav nav-justified" id="scheduleTabs">';
 scheduleModalDialogText +=
-  '<li class="active"><a href="#tuesday" data-toggle="tab">Tuesday, Oct. 1</a></li>';
+  '<li class="active"><a href="#tuesday" data-toggle="tab">Tuesday, Oct. 12</a></li>';
 scheduleModalDialogText +=
-  '<li><a href="#wednesday" data-toggle="tab">Wednesday, Oct. 2</a></li>';
+  '<li><a href="#wednesday" data-toggle="tab">Wednesday, Oct. 13</a></li>';
 scheduleModalDialogText +=
-  '<li><a href="#thursday" data-toggle="tab">Thursday, Oct. 3</a></li>';
+  '<li><a href="#thursday" data-toggle="tab">Thursday, Oct. 14</a></li>';
 scheduleModalDialogText +=
-  '<li><a href="#friday" data-toggle="tab">Friday, Oct. 4</a></li>';
+  '<li><a href="#friday" data-toggle="tab">Friday, Oct. 15</a></li>';
 scheduleModalDialogText += "</ul>";
 scheduleModalDialogText += '<div class="tab-content" id="aboutTabsContent">';
 

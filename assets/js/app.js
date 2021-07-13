@@ -716,19 +716,19 @@ style: function (feature) {
                       "</div>" +
                     "</div>" +
                "</div>"
-             } else if (feature.properties.polyType === "NSGIC") { //NSGIC conference
-                var content =
-                "<ul class='nav nav-tabs nav nav-justified' id='nsgicValuesContent'>" +
-                  "<li class='active'><a href='#nsgicNotAvailable' data-toggle='tab'>NSGIC Conference</a></li>" +
-                "</ul>" +
-                "<div class='tab-content' id='nsgicValuesContent'>" +
-                  "<div class='tab-pane fade active in' id='nsgicNotAvailable'>" +
-                    "<div class='modal-body'>" +
-                      "<table class='table table-striped table-bordered table-condensed'>" +
-                        "<tr><th scope='row'>NSGIC Conference</th><td>This room is reserved for the NSGIC Conference. No GIS/LIS workshops and/or sessions offered.</td></tr></table>";
-                  "</div>" +
-                "</div>" +
-             "</div>"
+             //} else if (feature.properties.polyType === "NSGIC") { //NSGIC conference
+                //var content =
+                //"<ul class='nav nav-tabs nav nav-justified' id='nsgicValuesContent'>" +
+                  //"<li class='active'><a href='#nsgicNotAvailable' data-toggle='tab'>NSGIC Conference</a></li>" +
+                //"</ul>" +
+                //"<div class='tab-content' id='nsgicValuesContent'>" +
+                  //"<div class='tab-pane fade active in' id='nsgicNotAvailable'>" +
+                    //"<div class='modal-body'>" +
+                      //"<table class='table table-striped table-bordered table-condensed'>" +
+                        //"<tr><th scope='row'>NSGIC Conference</th><td>This room is reserved for the NSGIC Conference. No GIS/LIS workshops and/or sessions offered.</td></tr></table>";
+                  //"</div>" +
+                //"</div>" +
+             //"</div>"
              } else if (feature.properties.polyType === "No values") { //No values
             var content =
             "<ul class='nav nav-tabs nav nav-justified' id='noValuesContent'>" +
@@ -909,14 +909,14 @@ var funRunWalkRoute = L.geoJson(null, {
 	    if (feature.properties) {
 				var content =
 					"<table class='table table-striped table-bordered table-condensed'>" +
-					"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 4, 2019 @ 6:15 a.m." + "</td></tr>" +
+					"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 15, 2021 @ 6:15 a.m." + "</td></tr>" +
 					"<tr><th scope='row'>Start/Finish Location</th><td>" + "River's Edge Convention Center (1st St N/5th Ave N)" + "</td></tr>" +
 					"<tr><th scope='row'>Start/Finish Address</th><td>" + "10 4th Ave S" + "</td></tr>" +
 					"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will receive a commemorative t-shirt after completion." + "</td></tr>" +
           "<tr><th scope='row'>Race Details</th><td>" + "Race route is out and back and follows 2nd Street South over the river and Riverside Drive SE to the 'turn around point', returning along Riverside Drive SE, 10th Street SE, 5th Avenue SE, and 7th Street SE before returning to Riverside Drive SE and 2nd Street South. Wayfinding signage along the route will indicate the race course and the 'turn around point'. Please dress for the weather!" +
-          '<br><br>View the official <a href="docs/2019_FunRunMap.pdf" download="2019_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).' +
+          '<br><br>View the official <a href="docs/2021_FunRunMap.pdf" download="2021_FunRunMap.pdf" target="_blank">5k Fun Run/Walk Map (download) <i class="fa fa-download" aria-hidden="true"></i></a> (PDF).' +
 					"</td></tr>" + "<table>";
-		
+
         layer.on({
 	        click: function (e) {
 	          $("#feature-title").html("Official 5k Fun Run/Walk Route");
@@ -1639,7 +1639,7 @@ map.on('almost:click', function (e) {
   e.layer.setStyle({weight: 3, color: "#00FFFF"});
 	var content =
 		"<table class='table table-striped table-bordered table-condensed'>" +
-		"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 4, 2019 @ 6:15 a.m." + "</td></tr>" +
+		"<tr><th scope='row'>Start Time</th><td>" + "Friday, Oct. 15, 2021 @ 6:15 a.m." + "</td></tr>" +
 		"<tr><th scope='row'>Start/Finish Location</th><td>" + "River's Edge Convention Center (1st St N/5th Ave N)" + "</td></tr>" +
 		"<tr><th scope='row'>Start/Finish Address</th><td>" + "10 4th Ave S" + "</td></tr>" +
 		"<tr><th scope='row'>Cost</th><td>" + "Free! Finishers will receive a commemorative t-shirt after completion." + "</td></tr>" +
